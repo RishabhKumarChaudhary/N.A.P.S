@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", Arial, sans-serif;
+    
+}
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation CSS */
+.nav-wrapper {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    transition: transform 0.3s;
+    transform: translateX(-100%);
+    z-index: 9999;
+}
+
+.nav-wrapper.show-menu {
+    transform: none;
+}
+
+.js-nav-toggle {
+    background-color: #070402;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 43px;
+    height: 40px;
+    margin: 15px 0 0 15px;
+    display: block;
+    float: left;
+    padding: 0;
+    color: #345;
+}
+
+.js-nav-toggle span {
+    position: relative;
+    background-color: rgb(231, 231, 231);
+    height: 2px;
+    display: block;
+    width: 22px;
+    margin: 17px auto 0;
+    transition: all 0.4s;
+    transition-delay: 0.3s;
+}
+
+.js-nav-toggle span:before,
+.js-nav-toggle span:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 0;
+    left: 1px;
+    top: 50%;
+    margin-top: -7px;
+    transition: all 0.3s 0.3s;
+}
+
+.js-nav-toggle span:before {
+    box-shadow: 0 14px 0 1px rgb(235, 237, 240);
+}
+
+.js-nav-toggle span:after {
+    box-shadow: 0 0 0 1px rgb(241, 242, 243);
+}
+
+.show-menu .js-nav-toggle span {
+    background-color: transparent;
+}
+
+.show-menu .js-nav-toggle span:before {
+    transform: rotate(-45deg);
+}
+
+.show-menu .js-nav-toggle span:after {
+    transform: rotate(45deg);
+}
+
+.show-menu .js-nav-toggle span:before,
+.show-menu .js-nav-toggle span:after {
+    margin-top: 0;
+    box-shadow: 0 0 0 1px rgb(239, 242, 245);
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    box-shadow: 0 0 5px 1px #ddd;
+    background-color: #fafafa;
+    font-family: BsR;
+}
+
+nav .nav-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    background-color:#070402;
+    color: #fff;
+    z-index: 100;
+    cursor: pointer;
+    transition: backgroun-color 0.2s;
+}
+
+nav .nav-toggle:hover {
+    background-color: #345;
+}
+
+nav .nav-toggle.back-visible .nav-back {
+    opacity: 1;
+}
+
+nav .nav-toggle.back-visible .nav-title {
+    transform: translateX(40px);
+}
+
+nav .nav-title {
+    position: absolute;
+    left: 0;
+    top: 0.8em;
+    padding-left: 0.7em;
+    transition: transform 0.3s;
+    font-family: BsR;
+    font-size:25px
+
+
+}
+
+nav .nav-back {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+nav .nav-back:before,
+nav .nav-back:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+}
+
+nav .nav-back:before {
+    left: 50%;
+    width: 9px;
+    height: 9px;
+    border: 2px solid currentcolor;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    transform: translate(-50%, -50%) rotateZ(-45deg);
+}
+
+nav .nav-back:after {
+    left: 28%;
+    width: 15px;
+    height: 2px;
+    background-color: currentcolor;
+    margin-top: -1px;
+}
+
+nav a {
+    display: block;
+    position: relative;
+    padding: 0.7em;
+    border-bottom: 1px solid #eee;
+    color: #999;
+    text-decoration: none;
+    transition: color 0.15s, background-color 0.15s;
+   
+}
+#menu li a{
+    font-family: BsR;
+    font-size:25px
+}
+
+nav a:hover {
+    color: #333;
+    background-color: #efefef;
+}
+
+nav ul {
+    list-style: none;
+    padding: 45px 0 0;
+    transition: transform 0.3s;
+    background-color: #fafafa;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+nav ul ul {
+    display: none;
+    left: 100%;
+    padding:0px;
+}
+
+nav li.has-dropdown>a {
+    padding-right: 2.5em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+nav li.has-dropdown>a:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 1em;
+    width: 9px;
+    height: 9px;
+    border: 1px solid currentcolor;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    transform: translateY(-90%) rotateZ(-45deg);
+    transition: transform 0.3s;
+    transform-origin: 100%;
+}
+
+nav li.nav-dropdown-open ul {
+    display: block;
+}

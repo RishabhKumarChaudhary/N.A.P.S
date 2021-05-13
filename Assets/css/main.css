@@ -1,0 +1,1000 @@
+
+@font-face {
+    font-family: BsR;
+    src: url("../fonts/Chomsky.otf");
+}
+
+@font-face {
+    font-family: DellRespira;
+    src: url("../fonts/DellaRespira-Regular.ttf");
+}
+
+@font-face {
+    font-family: JoseFin;
+    src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Eagle;
+    src: url("../fonts/EagleLake-Regular.ttf");
+}
+
+@font-face {
+    font-family: Laila-hindi;
+    src: url("../fonts/Laila-Regular.ttf");
+}
+
+@font-face {
+    font-family: blkchry;
+    src: url("../fonts/BLKCHCRY.TTF");
+}
+
+/*
+
+#adc0dc70;
+
++++++++++++++++++++++++++++++++
++   Menu For CSS              +
++++++++++++++++++++++++++++++++
+|1. Header                    |
+|   1.1 Nav-Bar               |
+|   1.2 Logo                  |
+|2. Section                   |
+|   2.1 Image Slider          |
+|3. Footer                    |
+|                             |
+|                             |
+|                             |
+|                             |
++++++++++++++++++++++++++++++++
+
+*/
+
+/* 
+1. Header
+
+/* Navigation CSS Ends*/
+
+/* 1.2 Logo */
+.logo-box {
+    background-color: rgb(255, 255, 255);
+}
+
+#newlogo {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: -20%;
+    display: inline-block;
+    text-align: center;
+
+}
+#logo {
+    width: 280px;
+    height: 140px;
+    position: relative;
+    left: 38.33%;
+    text-align: center;
+    animation-name: spin;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    transform-style: preserve-3d;
+    animation-direction: normal;
+}
+#logo:hover {
+    animation-play-state: paused;
+}
+.logo-box h2 {
+    color: white;
+}
+/*2. Section*/
+
+section {
+    background-color: white;
+    text-align: center;
+    width: 100vw;
+    min-height: auto;
+}
+.main-content {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: #000 0 7px 35px 0;
+    -moz-box-shadow: #000 0 7px 35px 0;
+    box-shadow: #000 0 7px 35px 0;
+    text-align: center;
+
+}
+
+#site-content {
+    min-height: 100%;
+    min-height: 120vh;
+    padding-top: 65px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.about {
+    height: 50vh;
+}
+
+
+.top-logo-bar {
+    min-height: auto !important;
+}
+/*
+Image Slider CSS
+*/
+@import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+ figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden;margin: 0px auto; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 28s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100vw; height: 80vh; object-fit: cover; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0, 0, 0, 0.562);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
+
+/*
+.box {
+    background-color: rgb(0 0 0 / 83%);
+    position: relative;
+    height: 50px;
+    top: -15px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 150px;
+}
+
+.image-slider {
+    min-width: 100vw;
+    padding: 0;
+}
+.main-carousel {
+    position: relative;
+    height: 600px;
+    height: 108vh;
+
+}
+.main-carousel .carousel {
+    margin: 30px 0 0;
+    width: 100%;
+    position: relative;
+    left: 0;
+}
+.main-carousel .carousel .items {
+    width: 100%;
+    height: 100vh;
+}
+.main-carousel .carousel .items .carousel-image {
+    width: 100vw;
+    height: 720px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s all;
+    
+}
+
+.main-carousel .carousel .items .current {
+    opacity: 1;
+}
+.main-carousel .buttons #nextBtn,
+.main-carousel .buttons #prevBtn {
+    height: 35px;
+    width: 35px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+}
+.main-carousel .buttons #nextBtn:hover,
+.main-carousel .buttons #prevBtn:hover {
+    opacity: 1;
+}
+.main-carousel .buttons #prevBtn {
+    top: 50%;
+    left: 3%;
+}
+.main-carousel .buttons #nextBtn {
+    top: 50%;
+    right: 3%;
+}
+.main-carousel .nav-dots {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 99;
+}
+.main-carousel .nav-dots .dot {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.main-carousel .nav-dots .active {
+    opacity: 1;
+}
+*/
+/*
+About Section
+*/
+#about-content p {
+    text-align: justify;
+}
+#about-content p,
+#about-content span {
+    font-family: BsR;
+    font-size: 45px;
+
+}
+/*
+Calendar Section
+*/
+.calendar-box {
+    display: inline-block;
+}
+.event-box {
+    /* height: 119px; */
+    width: 300px;
+    height: 400px;
+    background-color: #2ECC71;
+    color: white;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.calendar {
+    width: 350px;
+    background: #f9f5f5;
+    margin-left: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+.calendar__month {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    /* left: 30%; */
+    /* right: 100%; */
+}
+.cal-month__next,
+.cal-month__previous {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+.cal-month__next:hover,
+.cal-month__previous:hover {
+    background-color: #42a5f5;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    font-weight: 800;
+    color: #111;
+}
+.cal-month__next {
+    right: 0;
+}
+.cal-month__current {
+    text-align: center;
+    color: rgb(100 101 107);
+}
+.cal-body__day,
+.cal-head__day {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+.cal-body__week,
+.calendar__head {
+    display: block;
+    height: 50px;
+    width: 350px;
+}
+.calendar__head {
+    line-height: 50px;
+    position: relative;
+}
+.calendar__head:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #90caf9;
+}
+.cal-body__day {
+    color: #8e1f1f;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.cal-day__month--current {
+    color: #020202;
+}
+.cal-day__day--today {
+    font-weight: 800;
+    color: #0c87e8;
+}
+.cal-day__day--selected {
+    background-color: #1ff320;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+    border-radius: 50%;
+    color: #111;
+}
+
+.calendar-box .event-box .add-event {
+    padding: 50px 30px;
+}
+.calendar-box .event-box .add-event ul li {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.current-date {
+    height: 140px;
+    border-top-left-radius: 10px;
+}
+.calendar-box .event-box .current-date {
+    padding: 30px 10px 10px;
+
+}
+
+.calendar-box .event-box .current-date h1,
+h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.current-day-heading {
+    height: 40px;
+    background-color: rgb(226, 97, 11);
+}
+.event-add {
+    height: 240px;
+    background-color: violet;
+}
+/*
+Fact Section
+*/
+
+.funfact-img {
+    transform: rotate(-25deg);
+}
+.fact-heading {
+    background-color: brown;
+    font-size: 48px;
+    color: white;
+    font-weight: 800;
+}
+.fact {
+    background-color: #cecece;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+.source {
+    font-size: 24px;
+    font-weight: 200;
+    text-align: left;
+}
+/**/
+a.active:focus,
+a.active:hover,
+a.active:visited,
+li a.active:link,
+li a:hover {
+    background: #fff;
+    z-index: 1010;
+    box-shadow: 0 0 18px 0 rgba(0,0,0,.5);
+    transform: scale(1.1);
+}
+li a:hover {
+    z-index: 2020;
+}
+
+
+/*
+
+*/
+.glimpse-link {
+color: #ff0000;
+   text-decoration: none !important;
+}
+
+.glimpse-link:hover{
+    color: #9e1212;
+}
+
+/* Campus buzz*/
+
+
+/* fact-box-bg */
+
+.fact-box-bg{
+position: relative;
+height: auto;
+left: 10%;
+top: 100px;
+}
+
+
+/* Rectangle 1 */
+.rectangle1 {
+
+position: absolute;
+width: 850.96px;
+height: 760.76px;
+background: #20F84F;
+transform: rotate(8.79deg);
+
+
+}
+/* Rectangle 2 */
+.rectangle2 {
+    position: absolute;
+    width: 840.95px;
+    height: 760.97px;
+    background: #000000;
+    transform: rotate(-5.47deg);
+    padding: 50px;
+}
+
+.fact-text {
+    color: white;
+    transform: rotate(-0.5deg);
+    font-size: 20px;
+    font-weight: 800;
+    text-align: justify;
+}
+
+.fact-text ul li {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Card CSS*/
+
+.card-list {
+    display: flex;
+    padding: 15px;
+    overflow-x: scroll;
+}
+.card-list .card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 340px;
+    width: 300px;
+    min-width: 300px;
+    padding: 12px;
+    border-radius: 16px;
+    background: #000000f2;
+    box-shadow: -1rem 0 3rem #000;
+    transition: 0.2s;
+    top: 45%;
+    left: 16%;
+}
+
+.card-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.card-list::-webkit-scrollbar-thumb {
+    background-color: #17141d;
+    border-radius: 9px;
+    box-shadow: inset 2px 2px 2px hsla(0, 0%, 100%, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+.card-list::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+}
+
+.card-list .card:hover {
+    cursor: pointer;
+    transform: translateY(-1rem);
+    background-color: white;
+    color: black;
+}
+.card-list .card:hover ~ .card {
+    transform: translateX(130px);
+
+}
+.card-list .card:not(:first-child) {
+    margin-left: -110px;
+
+}
+
+.card-list .card-author {
+    position: relative;
+    display: grid;
+    grid-template-columns: 75px 1fr;
+    align-items: center;
+    margin: 20px 0 0;
+}
+.card-list .author-avatar img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    margin: 16px 10px;
+    overflow: hidden;
+}
+.half-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 48px;
+    fill: none;
+    stroke: #ff8a00;
+    stroke-width: 8;
+    stroke-linecap: round;
+    /* pointer-events: none; */
+}
+.author-name-prefix {
+    font-style: normal;
+    font-weight: 700;
+    color: #7a7a8c;
+}
+
+.card-list .card-header h2:hover {
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 
+Team CSS
+*/
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSE
+* ==========================================
+*
+*/
+.profile-card {
+    transition: all ease 500ms;
+    box-shadow: 0 -1px 8px 2px black !important;
+}
+.profile-card:hover {
+
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 8px black !important;
+}
+
+/*
+Article Page CSS
+*/
+.article-heading h2 {
+    font-size: 38px;
+    font-weight: 700;
+    text-align: left;
+}
+.meta-info {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 10px;
+}
+.meta-info span {
+    color: red;
+}
+.article-content {
+    text-align: left;
+}
+/*
+Newsletter Page
+*/
+.blog-slider__title{
+font-family: blkchry;
+font-size: 40px;
+}
+
+/*
+Editorials-content
+*/
+.editorials-content {
+    background-color: #020202;
+    color: white;
+    min-height: 100vh;
+}
+
+.view-all-button {
+    position: relative;
+    top: 95vh;
+    left: 75vw;
+    z-index: 99999;
+}
+
+.view-all-button a {
+    color: white;
+    text-decoration: none;
+}
+#entertainment {
+    background-image: url("../img/entertainment1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#inventions {
+    background-image: url("../img/inventions.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#illustrations {
+    background-image: url("../img/illustrations.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#abhivyakti {
+    background-color: #2ECC71;
+}
+
+#trends {
+    background-color: #8e1f1f;
+}
+
+.card {
+    background-color: #cacaca;
+}
+
+.post-card {
+    background-color: #adc0dc70 !important;
+    position: relative;
+}
+
+.post-card-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*
+Contact us CSS
+*/
+
+.required-asterisk {
+    color: #f00;
+}
+.wrapper {
+    width: 580px;
+    border: 1px solid #eee;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: #ffffffb8;
+    box-shadow: -3px 4px 9px 2px rgb(0 0 0 / 88%);
+    position: relative;
+}
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 8px 0;
+}
+fieldset legend {
+    padding: 8px 0;
+}
+fieldset label {
+    margin: 0 24px 0 6px;
+}
+fieldset label > span {
+    color: #555;
+}
+.floating-label {
+    position: relative;
+    display: inline-block;
+    margin: 8px 0;
+    vertical-align: top;
+}
+.half-width-field {
+    width: 49%;
+}
+.half-width-field div,
+.half-width-field select {
+    width: 100%;
+}
+.half-width-field + .half-width-field {
+    margin-left: 1%;
+}
+.full-width-field {
+    width: 100%;
+}
+.full-width-field div,
+.full-width-field select {
+    width: 100%;
+}
+.floating-label > span {
+    position: absolute;
+    top: 1.2em;
+    left: 1.5em;
+    color: #555;
+    transition: 0.15s ease-out all;
+}
+.floating-label > span.stay {
+    top: 1em;
+    left: 2em;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #888;
+    transition: 0.15s ease-out all;
+}
+.floating-label > span.stay .helper {
+    display: none;
+}
+.floating-label > input {
+    padding: 1em 1em 0.25em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.floating-label > textarea {
+    padding: 1.2em 1em 0.8em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    width: 100%;
+    height: 160px;
+    border: 1px solid #ccc;
+}
+.small {
+    font-size: 0.9em;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    background-color: #ff0019;
+    opacity: 1;
+    cursor: pointer;
+}
+.select-group span {
+    display: block;
+    margin-bottom: 0.5em;
+}
+.select-group.floating-label span {
+    top: 0;
+    left: 10px;
+    font-weight: bold;
+    color: #888;
+    transition: 0.15s ease-out all;
+}
+.select-group.floating-label option {
+    font-weight: bold;
+    padding-bottom: 0.3em;
+    color: #555;
+}
+.select-group > div {
+    border: 1px solid #ccc;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+.select-group > div select {
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    z-index: 5;
+    padding: 1em 2em 0.25em 1em;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+.select-group > div:after {
+    font-family: FontAwesome;
+    content: '\f107';
+    z-index: -1;
+    position: absolute;
+    right: 1em;
+    top: 1.1em;
+}
+input[type='submit'] {
+    font-family: 'Proxima Nova', 'Verdana', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+
+    line-height: 1.5em;
+    margin-top: 5px;
+    padding: 1em 4em;
+    color: #fff;
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid #000;
+    margin: 12px auto;
+}
+input[type='submit']:hover,
+input[type='submit']:active,
+input[type='submit']:focus {
+    background-color: transparent;
+    color: #000;
+    border: 1px solid #000;
+    transition: background-color 250ms, color 250ms, border 250ms;
+}
+.cancel {
+    text-align: center;
+    display: inherit;
+    padding: 16px 0 0;
+}
+.note {
+    font-size: 0.9em;
+    color: #888;
+    margin: 0;
+}
+@media screen and (max-width: 540px) {
+    .wrapper {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .half-width-field {
+        width: 100%;
+    }
+}
+
+.map {
+    position: relative;
+    left: 18%;
+    margin-top: 100px;
+}
+
+/*
+3.Footer CSS
+*/
+
+#template-site-content {
+    min-height: 100%;
+    min-height: 100vh;
+    padding-top: 65px;
+    position: relative;
+    z-index: 1;
+    -webkit-box-shadow: #000 0 7px 35px 0;
+    -moz-box-shadow: #000 0 7px 35px 0;
+    box-shadow: #000 0 7px 35px 0;
+    text-align: center;
+    background-color: white;
+}
+
+#template-site-content section {
+    background-color: #cccccc;
+    height: 100vh;
+    padding: 80px;
+    margin-bottom: 50px;
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.content-section {
+    margin-bottom: 130px;
+}
+
+/* KeyFrames and Responsive*/
+
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .container {
+        border: none;
+        width: 100%;
+        height: 0;
+        padding-bottom: 55%;
+    }
+
+    .next,
+    .prev {
+        width: 15%;
+    }
+    #nav_slide .dots {
+        width: 12px;
+        height: 12px;
+    }
+}
+@media screen and(min-width: 970px) {
+    .me {
+        display: none;
+    }
+}
+
+/* NewsLetter Carousel */
