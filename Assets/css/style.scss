@@ -1,0 +1,95 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
+
+.hero-body {
+    padding:0rem
+}
+
+
+
+/* Footer CSS */
+
+.footer {
+    background-color: black;
+    color:white;
+    padding: 1rem 1rem 1rem;
+}
+
+.icon {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    border-radius: 50%;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    background-size: 60%;
+    background-position: center center;
+    background-repeat: no-repeat;
+ }
+ .icon:hover {
+    -webkit-animation: vibration 0.5s infinite;
+    opacity: 0.6;
+ }
+  .icon-yt {
+    background-image: url("../img/yt.png");
+    background-color: #c20a0a;
+ }
+  .icon-fb {
+    background-image: url("../img/fb.png");
+    background-color: #349;
+ }
+  .icon-in {
+    background-image: url("https://i.imgur.com/2Y9rW1r.png");
+    background-color: #36c;
+ }
+  .icon-tw {
+    background-image: url("../img/twitter.png");
+    background-color: #3db8f5;
+ }
+  @-webkit-keyframes vibration {
+    0% {
+      left: -2px;
+      top: -2px;
+   }
+    12.5% {
+      left: 2px;
+      top: 0px;
+   }
+    25% {
+      left: -2px;
+      top: 2px;
+   }
+    37.5% {
+      left: 0px;
+      top: -2px;
+   }
+    50% {
+      left: 0px;
+      top: 2px;
+   }
+    62.5% {
+      left: 2px;
+      top: -2px;
+   }
+    75% {
+      left: -2px;
+      top: 0;
+   }
+    87.5% {
+      left: 2px;
+      top: 2px;
+   }
+    100% {
+      left: 0px;
+      top: 2px;
+   }
+ }
+  @-webkit-keyframes chgop {
+    0% {
+      opacity: 1;
+   }
+    100% {
+      opacity: 0.6;
+   }
+ }

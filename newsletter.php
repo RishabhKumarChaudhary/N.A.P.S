@@ -4,11 +4,6 @@ include 'header.html'
 <style>
     @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
 
-    body {
-        min-height: 100vh;
-        font-family: 'Fira Sans', sans-serif;
-        display: flex;
-    }
     .blog-slider {
         width: 95%;
         position: relative;
@@ -283,12 +278,14 @@ include 'header.html'
     }
 </style>
 <section
-    id="site-content"
+    class="section"
     style="
 	 background-color: #ffe53b;
-	 background-image: linear-gradient(147deg, #ffe53b 0%, #fd3838 74%);">
+	 background-image: linear-gradient(147deg, #ffe53b 0%, #fd3838 74%);
+     width:100vw">
+     <div class="container">
     <div class="row">
-        <div class="col-xl-12 mb-3">
+        <div class="col-xl-12 mb-3 has-text-centered">
 		
             <svg
                 width="802"
@@ -439,7 +436,7 @@ include 'header.html'
     </div>
 
 
-
+     </div>
 </section>
 
 <?php include 'footer.html' ?>

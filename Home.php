@@ -1,21 +1,17 @@
 <?php 
 include 'header.html';
 ?>
-<section class="main-content top-logo-bar">
-    <div class="row">
-        <div class="col-xl-12">
-            <div class="logo-box">
-                <div id="logo">
-                    <img src="Assets/img/logo.png" width="100%"  height="100%"></div>
-            </div>
+<section class="hero is-danger">
+  <div class="hero-body">
+    <div class="logo-box">
+        <div id="logo">
+            <img src="Assets/img/logo.png" width="100%"  height="100%"></div>
         </div>
-    </div>
-
-    <!--Image Slider-->
+  </div>
 </section>
-<section id="site-content" style="padding-top:20px !important;" >
-<div class="container" style="height:auto;margin-bottom:25px;max-width:100vw">
 
+<section class="section" style="padding:0rem !important">
+<div class="container is-widescreen" style="height:auto;margin-bottom:2rem;max-width:100vw;margin-top:2rem">
 <div id="captioned-gallery">
 	<figure class="slider">
 		<figure>
@@ -41,11 +37,10 @@ include 'header.html';
 	</figure>
 </div>
 </div>
-<div class="container" style="height:auto">
-<div class="row">
+<div class="container is-max-widescreen" style="height:auto">
+
             <div
                 id="about-content"
-                class="col-xl-12"
                 style="text-align: center; background-color: beige;width: auto; height:auto; padding: 10px;">
 
                 <p >From news to trends, culture to inventions, find the most relevant content
@@ -55,9 +50,8 @@ include 'header.html';
                     Gain the knowledge, Rain the knowledge
                 </span>
             </div>
-        </div>
 </div>
-<div class="container" style="height:auto;margin-top:25px;">
+<div class="container has-text-centered" style="height:auto; margin-top:8rem;">
 <div class="calendar-box">
         <div class="event-box">
             <div class="current-date">
@@ -154,32 +148,40 @@ include 'header.html';
     </div>
 </div>
 </div>
-<div class="container" style="background:red;height:auto;margin-top:100px;max-width:100vw">
-<div class="row" style="height:500px">
-    <div class="col-xl-4" style="background:white;height:auto;">
-    <div class="img-didyouknow" style="display: inline-block;
-    justify-content: center;
-    position: relative;
-    top: 35%;transform: scale(1.3);">
-            <img class="funfact-img" src="Assets/img/didyouknow.jpeg" width="80%">
-        </div>
-    </div>
-    <div class="col-xl-8"></div>
-</div>
-</div>
 
-<div class="container">
-    <div class="row">
-        <div class="col-xl-12" style="color:red; font-size:30px;">
-            <a href="Editorial.php" class="glimpse-link">
-                
-                Glimpses of the Editorials   
-            </a>
+<section class="section" style="margin-top: 5rem;">
+    <div class="container">
+        <div class="level">
+            <div class="level-left has-text-left">
+                <div class="level-item">
+                <div style="background:white;height:auto;">
+    <div class="img-didyouknow">
+            <img class="funfact-img" src="Assets/img/didyouknow.jpeg" width="100%">
         </div>
     </div>
-</div>
+                </div>
+            </div>
+
+            <div class="level-right ">
+                    <div class="level-item">
+                        
+                    </div>
+            </div>
+        </div>
+        <div class="level mt-6">
+            <div class="level-item has-text-centered">
+            <a href="Editorial.php" class="glimpse-link">  
+            Glimpses of the Editorials   
+            </a>
+
+            </div>
+        </div>
+            
+    </div>
+ </section>
 </section>
 
+            
 <!--
 <script type="text/javascript">
         window.jssor_1_slider_init = function() {

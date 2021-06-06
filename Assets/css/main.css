@@ -1,4 +1,4 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
 
 @font-face {
     font-family: BsR;
@@ -72,10 +72,7 @@
 }
 #logo {
     width: 280px;
-    height: 140px;
-    position: relative;
-    left: 38.33%;
-    text-align: center;
+    margin:auto;
     animation-name: spin;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -91,35 +88,10 @@
 }
 /*2. Section*/
 
-section {
-    background-color: white;
-    text-align: center;
-    width: 100vw;
-    min-height: auto;
-}
-.main-content {
-    min-height: 100vh;
-    position: relative;
-    z-index: 1;
-    -webkit-box-shadow: #000 0 7px 35px 0;
-    -moz-box-shadow: #000 0 7px 35px 0;
-    box-shadow: #000 0 7px 35px 0;
-    text-align: center;
-
-}
-
-#site-content {
-    min-height: 100%;
-    min-height: 120vh;
-    padding-top: 65px;
-    position: relative;
-    z-index: 1;
-    text-align: center;
-
-}
 
 .about {
     height: 50vh;
+    background-color: red;
 }
 
 
@@ -417,6 +389,7 @@ Fact Section
 
 .funfact-img {
     transform: rotate(-25deg);
+
 }
 .fact-heading {
     background-color: brown;
@@ -928,32 +901,8 @@ input[type='submit']:focus {
 3.Footer CSS
 */
 
-#template-site-content {
-    min-height: 100%;
-    min-height: 100vh;
-    padding-top: 65px;
-    position: relative;
-    z-index: 1;
-    -webkit-box-shadow: #000 0 7px 35px 0;
-    -moz-box-shadow: #000 0 7px 35px 0;
-    box-shadow: #000 0 7px 35px 0;
-    text-align: center;
-    background-color: white;
-}
 
-#template-site-content section {
-    background-color: #cccccc;
-    height: 100vh;
-    padding: 80px;
-    margin-bottom: 50px;
-    width: 100%;
-    color: white;
-    text-align: left;
-}
 
-.content-section {
-    margin-bottom: 130px;
-}
 
 /* KeyFrames and Responsive*/
 
@@ -975,27 +924,5 @@ input[type='submit']:focus {
     }
 }
 
-@media screen and (max-width: 685px) {
-    .container {
-        border: none;
-        width: 100%;
-        height: 0;
-        padding-bottom: 55%;
-    }
-
-    .next,
-    .prev {
-        width: 15%;
-    }
-    #nav_slide .dots {
-        width: 12px;
-        height: 12px;
-    }
-}
-@media screen and(min-width: 970px) {
-    .me {
-        display: none;
-    }
-}
 
 /* NewsLetter Carousel */
