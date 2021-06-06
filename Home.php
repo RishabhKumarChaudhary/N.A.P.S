@@ -14,7 +14,7 @@ include 'header.html';
     <!--Image Slider-->
 </section>
 <section id="site-content" style="padding-top:20px !important;" >
-<div class="container" style=";height:auto;margin-bottom:25px;max-width:100vw">
+<div class="container" style="height:auto;margin-bottom:25px;max-width:100vw">
 
 <div id="captioned-gallery">
 	<figure class="slider">
