@@ -484,8 +484,28 @@ transform: rotate(8.79deg);
 
 
 
+.odd {
+        
+  }
+  .even {
+    
+  }
+  .odd .title, .subtitle {
+      color:black !important
+  }
 
 
+
+  .parallax-2 {
+    background-image: url("https://www.bitmesra.ac.in/UploadedDocuments/user_pratyush_869/Header/Header3cd9cb07c4664c29ae582b31633b0a79_Header1.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
@@ -496,20 +516,19 @@ transform: rotate(8.79deg);
 
 .card-list {
     display: flex;
-    padding: 15px;
-    overflow-x: scroll;
+    padding: 15px 15px 0px 15px;
+    margin-top: 15rem;
 }
 .card-list .card {
     display: flex;
     position: relative;
     flex-direction: column;
-    height: 340px;
+    height: 320px;
     width: 300px;
     min-width: 300px;
-    padding: 12px;
+    padding: 1rem;
     border-radius: 16px;
     background: #000000f2;
-    box-shadow: -1rem 0 3rem #000;
     transition: 0.2s;
     top: 45%;
     left: 16%;
@@ -532,8 +551,9 @@ transform: rotate(8.79deg);
     cursor: pointer;
     transform: translateY(-1rem);
     background-color: white;
-    color: black;
+    color: black !important;
 }
+
 .card-list .card:hover ~ .card {
     transform: translateX(130px);
 
@@ -548,7 +568,6 @@ transform: rotate(8.79deg);
     display: grid;
     grid-template-columns: 75px 1fr;
     align-items: center;
-    margin: 20px 0 0;
 }
 .card-list .author-avatar img {
     display: block;
@@ -577,13 +596,15 @@ transform: rotate(8.79deg);
     color: #7a7a8c;
 }
 
-.card-list .card-header h2:hover {
+.card-list .card-header h2:hover{
     background: linear-gradient(90deg, #ff8a00, #e52e71);
     text-shadow: none;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+
 
 /* 
 Team CSS
@@ -656,7 +677,6 @@ Editorials-content
     background-image: url("../img/entertainment1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 #inventions {

@@ -37,6 +37,7 @@ include 'header.html';
 	</figure>
 </div>
 </div>
+
 <div class="container is-max-widescreen" style="height:auto">
 
             <div
@@ -51,8 +52,9 @@ include 'header.html';
                 </span>
             </div>
 </div>
+<div class="parallax-2"></div>
 <div class="container has-text-centered" style="height:auto; margin-top:8rem;">
-<div class="calendar-box">
+    <div class="calendar-box">
         <div class="event-box">
             <div class="current-date">
                 <h1 id="date"></h1>
