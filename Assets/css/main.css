@@ -391,7 +391,7 @@ Fact Section
     transform: rotate(-25deg);
 
 }
-.fact-heading {
+/* .fact-heading {
     background-color: brown;
     font-size: 48px;
     color: white;
@@ -408,7 +408,7 @@ Fact Section
     font-weight: 200;
     text-align: left;
 }
-/**/
+
 a.active:focus,
 a.active:hover,
 a.active:visited,
@@ -422,6 +422,81 @@ li a:hover {
 li a:hover {
     z-index: 2020;
 }
+ */
+
+ #slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto 0 auto;
+    border-radius: 4px;
+  }
+  
+  #slider ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    list-style: none;
+  }
+  
+  #slider ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+  }
+  
+  a.control_prev, a.control_next {
+    position: absolute;
+    top: 40%;
+    z-index: 999;
+    display: block;
+    padding: 4% 3%;
+    width: auto;
+    height: auto;
+    background: #2a2a2a;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  a.control_prev:hover, a.control_next:hover {
+    opacity: 1;
+    -webkit-transition: all 0.2s ease;
+  }
+  
+  a.control_prev {
+    border-radius: 0 2px 2px 0;
+  }
+  
+  a.control_next {
+    right: 0;
+    border-radius: 2px 0 0 2px;
+  }
+  
+  .fact-image {
+    transition: 1s;
+  }
+.fact-image:hover {
+    transform:  scale(1.7);
+    
+}
+
+
+
+
+
+
+
+
 
 
 /*
@@ -436,6 +511,15 @@ color: #ff0000;
     color: #9e1212;
 }
 
+
+.heart {
+
+    font-size: 48px;
+   
+}
+.animate-beat {
+    animation: beat 3s infinite ;
+}
 /* Campus buzz*/
 
 
@@ -917,9 +1001,6 @@ input[type='submit']:focus {
     margin-top: 100px;
 }
 
-/*
-3.Footer CSS
-*/
 
 
 
@@ -944,5 +1025,32 @@ input[type='submit']:focus {
     }
 }
 
+@keyframes beat {
+    0% {
+        font-size: 40px;
+        /* fallback */
+        font-size: 20px;
+    }
+    40% {
+        font-size: 50px;
+        /* fallback */
+        font-size: 25px;
+    }
+    60% {
+        font-size: 40px;
+        /* fallback */
+        font-size: 20px;
+    }
+    80% {
+        font-size: 50px;
+        /* fallback */
+        font-size: 25px;
+    }
+    100% {
+        font-size: 40px;
+        /* fallback */
+        font-size: 20px;
+    }
+}
 
 /* NewsLetter Carousel */

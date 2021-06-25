@@ -52,7 +52,6 @@ include 'header.html';
                 </span>
             </div>
 </div>
-<div class="parallax-2"></div>
 <div class="container has-text-centered" style="height:auto; margin-top:8rem;">
     <div class="calendar-box">
         <div class="event-box">
@@ -150,7 +149,14 @@ include 'header.html';
     </div>
 </div>
 </div>
+<div class="level mt-6">
+            <div class="level-item has-text-centered">
+            
+            <a href="Editorials.php"><span style="font-family:BsR !important;" class="heart animate-beat"> Glimpses of the Editorials </span></a>   
+            
 
+            </div>
+</div>
 <section class="section" style="margin-top: 5rem;">
     <div class="container">
         <div class="level">
@@ -167,17 +173,71 @@ include 'header.html';
             <div class="level-right ">
                     <div class="level-item">
                         
+                        <div id="slider">
+                            <a  class="control_next">></a>
+                            <a  class="control_prev"><</a>
+                                <ul>
+
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact1.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact2.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact3.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact4.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact5.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="fact-image" style="padding-top:4rem">
+                                        <div class="level">
+                                            <div class="level-item">
+                                                <figure>
+                                                <img class="image" src="Assets/img/FactImages/Fact8.png" style="height: 170px; width:230px" >
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>  
+                        </div>
                     </div>
             </div>
         </div>
-        <div class="level mt-6">
-            <div class="level-item has-text-centered">
-            <a href="Editorial.php" class="glimpse-link">  
-            Glimpses of the Editorials   
-            </a>
-
-            </div>
-        </div>
+       
             
     </div>
  </section>

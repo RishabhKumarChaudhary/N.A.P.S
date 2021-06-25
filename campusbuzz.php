@@ -52,7 +52,7 @@ include 'header.html'
 
 
 <section class="section is-size-fullhd" style="margin-top:2rem;padding:0rem !important">
-<div class="container has-text-centered is-fullhd" style="height:100vh; margin-top:1rem; background-image:url('Assets/img/bgg.png'); background-size: cover; background-repeat: no-repeat; background-blend-mode: lighten;">
+<div class="container has-text-centered is-fullhd" style="height:100vh; margin-top:1rem; background-image:url('Assets/img/bgg.png'); background-size: auto; background-repeat: no-repeat;">
    
    
    
@@ -155,7 +155,6 @@ include 'header.html'
 </div>
 
 </section>
-<div class="parallax-2"></div>
 <section class="section"> 
 <div class="container">
     <div class="hero">

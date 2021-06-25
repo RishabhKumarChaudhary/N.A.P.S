@@ -61,9 +61,9 @@ include 'header.html'
       <div class="hero">
       <div class="hero-body ">
           <div class="title is-2" style="font-family: JoseFin !important;">
-            Connect with us
+            Connect with Us
             <div class="subtitle is-5 mt-2" style="color:red !important">
-                Reach bitnoidanaps@bitmesra.ac.in
+                bitnoidanaps@bitmesra.ac.in
             </div>
           </div>
       </div>
