@@ -74,14 +74,14 @@ include 'header.html'
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                    <img src="Assets/img/pic3.jpg" width="100%" height="100px ">
+                                    <img src="Assets/img/ill1.jpeg" style=" width: 400px; height:200px">
                                 </div>
                                 <p>
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="article.php" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Illustrations/article_1.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -130,14 +130,14 @@ include 'header.html'
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                    <img src="Assets/img/pic3.jpg" width="100%" height="100px ">
+                                    <img src="Assets/img/ill2.jpeg" style=" width: 400px; height:200px">
                                 </div>
                                 <p>
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="article.php" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Illustrations/article_2.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -186,17 +186,15 @@ include 'header.html'
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                    <p class="subtitle mt-5">
-                                        Envision yourself being caught in the leaping flames of a forest fire, a
-                                        predicament no one would want to get used to.
-                                    </p>
+                                <img src="Assets/img/ill3.jpeg" style=" width: 400px; height:200px">
                                 </div>
+                                <p></p>
                                 <p>
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="article.php" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Illustrations/article_3.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>

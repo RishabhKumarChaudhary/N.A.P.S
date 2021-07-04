@@ -1,7 +1,6 @@
 <?php
 include 'header.html'
 ?>
-
 <section class="section mt-3" style="padding:0rem !important">
 <div class="container">
 <div class="hero is-danger">
@@ -51,107 +50,17 @@ include 'header.html'
 </section>
 
 
-<section class="section is-size-fullhd" style="margin-top:2rem;padding:0rem !important">
-<div class="container has-text-centered is-fullhd" style="height:100vh; margin-top:1rem; background-image:url('Assets/img/bgg.png'); background-size: auto; background-repeat: no-repeat;">
-   
-   
-   
-   
-    <div class="calendar-box" style="margin-top:5rem">
-        <div class="event-box">
-            <div class="current-date">
-                <h1 id="date"></h1>
-                <h3 id="day"></h3>
-                <script>
-                                var today = new Date();
-                                var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-                                 document.getElementById("day").innerHTML = day[today.getDay()]; 
-                                 document.getElementById("date").innerHTML = today.getDate();
-                               
-                            </script>
-            </div>
-            <div class="add-event">
-                <ul>
-                    <p style="text-align: left;">Current Events</p>
-                    <li>New Event</li>
-                    <li>New Event 1</li>
-                    <li>new Event 2</li>
-                </ul>
-            </div>
-        </div>
+<section class="section " style="margin-top:2rem;padding:0rem !important;height: auto;" >
+<div class="event-box-border">
+    <div class="upper-border">
 
-        <div class="calendar">
-            <div class="calendar__month">
-                <div class="cal-month__previous"><</div> <div class="cal-month__current"></div> <div class="cal-month__next">></div>
-            </div>
-            <div class="calendar__head">
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-            </div>
-            <div class="calendar__body">
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-            </div>
-        </div>
     </div>
-</div>
+    <div class="data-text-event">
+        Helo
+    </div>
+    <div class="lower-border">
+
+    </div>
 </div>
 
 </section>
@@ -201,7 +110,7 @@ include 'header.html'
 </div>
 </section>
 
-<section class="section">
+<section class="section" >
 <section class="hero is-small odd has-text-centered">
     <div class="hero-body">
         <div class="columns">
@@ -214,7 +123,7 @@ include 'header.html'
             </div>
             <div class="column">
                 <div class="box" style="border-bottom: 5px solid #ff0000 !important; border-right: 5px solid #ff0000 !important;">
-                    <p class="subtitle is-size-3" style="font-family: courgette;">Birla Institute of Technology Noida was established in 1997.</p>
+                    <p class="subtitle is-size-4" style="font-family: courgette;">Birla Institute of Technology Noida was established in 1997.</p>
                 </div>
             </div>
         </div>

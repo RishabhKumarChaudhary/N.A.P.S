@@ -1,95 +1,445 @@
-
-<section id="site-content">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 article-heading">
-                <h2>The incinerating catastrophe of Similipal</h2>
-                <div class="row">
-                    <div class="col-sm-3 meta-info">
-                        Posted On:
-                        <span>28/2/2021</span>
+<section class="section" style="padding:0rem !important">
+    <div class="container is-widescreen" style="height:auto;margin-bottom:2rem;max-width:100vw;margin-top:2rem">
+    <div id="captioned-gallery">
+        <figure class="slider">
+            <figure>
+                <img src="Assets/img/pic1.jpeg" alt>
+                <figcaption>Image Description</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/img/pic2.jpeg" alt>
+                <figcaption>Image Description</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/img/pic3.jpg" alt>
+                <figcaption>Image Description</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/img/pic4.jpeg" alt>
+                <figcaption>Image Description</figcaption>
+            </figure>
+            <figure>
+                <img src="Assets/img/pic5.jpg" alt>
+                <figcaption>Image Description</figcaption>
+            </figure>
+        </figure>
+    </div>
+    </div>
+    
+    <div class="container is-max-widescreen" style="height:auto">
+    
+                <div
+                    id="about-content"
+                    style="text-align: center; background-color: beige;width: auto; height:auto; padding: 10px;">
+    
+                    <p >From news to trends, culture to inventions, find the most relevant content
+                        of your interest. Raise out your voices, put up the opinions, spread the
+                        knowledge, and what not ! All at NAPS.</p><br>
+                    <span style="color:red">
+                        Gain the knowledge, Rain the knowledge
+                    </span>
+                </div>
+    </div>
+    <div class="container" >
+        <div class="calendar-box">
+            <div class="event-box">
+                <div class="current-date">
+                    <h1 id="date"></h1>
+                    <h3 id="day"></h3>
+                    <script>
+                                    var today = new Date();
+                                    var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+                                     document.getElementById("day").innerHTML = day[today.getDay()]; 
+                                     document.getElementById("date").innerHTML = today.getDate();
+                                   
+                                </script>
+                </div>
+                <div class="add-event">
+                    <ul>
+                        <p style="text-align: left;">Current Events</p>
+                        <li>New Event</li>
+                        <li>New Event 1</li>
+                        <li>new Event 2</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="calendar">
+                <div class="calendar__month">
+                    <div class="cal-month__previous"><</div> <div class="cal-month__current"></div> <div class="cal-month__next">></div>
+                </div>
+                <div class="calendar__head">
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                    <div class="cal-head__day"></div>
+                </div>
+                <div class="calendar__body">
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
                     </div>
-                    <div class="col-sm-3 meta-info">
-                        By :
-                        <span>Author Name</span>
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                    </div>
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                    </div>
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                    </div>
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                    </div>
+                    <div class="cal-body__week">
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
+                        <div class="cal-body__day"></div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row mt-3">
-            <div
-                class="col-md-8"
-                style=" text-align: left; padding:0px; padding-right:10px">
-                Envision yourself being caught in the leaping flames of a forest fire, a
-                predicament no one would want to get used to. Can you visualize forested hills
-                wrapped in a devil’s fiery cloak as you choke on air filled with smoke? Can you
-                picture well-tended homes getting reduced to scorched concretes? Can you imagine
-                the agony of families relocating to find a safer shelter? It’s seemingly
-                convenient to say you don’t know, but it is much harder to commit to an actual
-                low probability estimate in the face of overwhelming contrary evidence. If you
-                devote some time thinking about what could threaten your livelihood, your
-                thoughts would be pretty focused on significant, obvious threats- things like
-                bombs and earthquakes. But with the world seemingly imploding, a global pandemic
-                spreading, and world economies tanking, it is more evident than ever that we’ve
-                been preparing for the wrong crisis. Climate change activists forewarned us
-                about the abysmal state of our environment time and time again, but scant
-                attention was paid towards the execution of corrective measures. An
-                acknowledgment of these issues can help elevate the public discourse on an
-                agenda of paramount significance- our planet’s future. But the sheer ignorance
-                of humankind, the fact that a surging inferno in Odisha couldn’t capture the
-                nation’s attention, exemplifies what happens in Similipal stays in Similipal.
-                Devastating wildfires around the globe are just an annual occurrence at this
-                point. Days turn to nights as fumes extinguish all the light in split seconds
-                before the flaming crimson glow announces the advent of the inferno.
-                Conflagrations cover the entire city with smoke. Wildfires of the kind that the
-                United States and other countries witnessed in the past few years, have just
-                become tempestuously real for India. A wildfire at the Similipal Biosphere
-                Reserve in Odisha rampaged for over ten days, wiping out nearly a third of the
-                national biosphere reserve. While the state is now reporting that the
-                firefighters have eventually gained control over the fire, the source of the
-                inferno is yet to be determined. The fire in this biosphere reserve coincidently
-                occurred when Odisha topped the list of forest fire incidents, with 12,614 fire
-                spots since 27th February, as per the reports of the Forest Survey of India.
-            </p>
-            <img
-                src="https://bitmesra.ac.in/naps/wp-content/uploads/2021/03/simlipal-forest-fire.jpg">
-            <p>
-                “It seems madness to think that a society would rate marginal economic growth
-                above a livable earth, but there you are.” Bill Bryson Similipal Biosphere
-                Reserve has occasionally seen fires, especially in the summer months, when a
-                prolonged dry spell coupled with a sudden rise in temperature triggered forest
-                fires. Located within the Mahanadian eastern coastal region of the Oriental
-                Realm and the Chhotanagpur biotic province of the Deccan peninsular zone,
-                Similipal is the abode to 94 species of orchids and about 3,000 species of
-                plants. The distinguished species of brute creation include 12 species of
-                amphibians and caecilians, 29 species of reptiles, 264 species of birds, and 42
-                species of vertebrates, all of which conjointly highlight the biodiversity
-                affluence of Similipal. While poachers set alight dry shrubs to drive out
-                animals, villagers from the area often engage in controlled burning to enable
-                better picking of the mahua flowers. So, what exactly is a controlled burn? A
-                controlled burn is a wildfire that the inhabitants set deliberately for a
-                specific purpose. According to WWF, well-thought-out and well-managed controlled
-                burns can be profitable, especially for forest management, as they can help stop
-                an out-of-control wildfire. But this doesn’t mean all calculated wildfires are
-                good; some are far from it. Innumerable fires deliberately set for agriculture
-                and land clearing are at best half-baked, and at worst calamitous. Slash and
-                burn fires are placed every day to destroy large sections of forests.
-                Undoubtedly, these forest fires remove trees and kill and displace wildlife,
-                alter water cycles and soil fertility, and threaten the inhabitants’ lives and
-                livelihoods. In 1997, wildfires set intentionally to clear the grasslands in
-                Indonesia intensified into one of the largest wildfires chronicled in history.
-                Hundreds of people died, millions of acres burned, endangered species like
-                orangutans perished, smoke and ash haze hung over Southeast Asia for months,
-                curtailing visibility and resulting in acute health risks. To minimize that
-                threat as much as possible, controlled burns must be well-considered,
-                well-planned, and ignited, and maintained by schooled specialists. But the crux
-                and nitty-gritty of this scenario? Fire can be a gizmo for conservation, but
-                only when used appropriately. Fortunately, thanks to rainfall and hailstorm at
-                the Pithabata range, the fire has been finally contained after raging for the
-                past two weeks.
-
+    </div>
+    </div>
+    <div class="level mt-6">
+                <div class="level-item has-text-centered">
+                
+                <a href="Editorials.php"><span style="font-family:BsR !important;" class="heart animate-beat"> Glimpses of the Editorials </span></a>   
+                
+    
+                </div>
+    </div>
+    <section class="section" style="margin-top: 5rem;">
+        <div class="container">
+            <div class="level">
+                <div class="level-left has-text-left">
+                    <div class="level-item">
+                    <div style="background:white;height:auto;">
+        <div class="img-didyouknow">
+                <img class="funfact-img" src="Assets/img/didyouknow.jpeg" width="100%">
             </div>
-            <div class="col-md-4 col-sm-3" style="padding:50px"></div>
+        </div>
+                    </div>
+                </div>
+    
+                <div class="level-right ">
+                        <div class="level-item">
+                            
+                            <div id="slider">
+                                <a  class="control_next">></a>
+                                <a  class="control_prev"><</a>
+                                    <ul>
+    
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact1.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact2.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact3.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact4.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact5.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="fact-image" style="padding-top:4rem">
+                                            <div class="level">
+                                                <div class="level-item">
+                                                    <figure>
+                                                    <img class="image" src="Assets/img/FactImages/Fact8.png" style="height: 170px; width:230px" >
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>  
+                            </div>
+                        </div>
+                </div>
+            </div>
+           
+                
+        </div>
+     </section>
+    </section>
+    
+/*
+Calendar Section
+*/
+.calendar-box {
+    display: inline-block;
+}
+
+.event-box {
+    /* height: 119px; */
+    width: 300px;
+    height: 400px;
+    background-color: #2ECC71;
+    color: white;
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.calendar {
+    width: 350px;
+    background: #f9f5f5;
+    margin-left: 300px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.calendar__month {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    /* left: 30%; */
+    /* right: 100%; */
+}
+
+.cal-month__next,
+.cal-month__previous {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.cal-month__next:hover,
+.cal-month__previous:hover {
+    background-color: #42a5f5;
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+    font-weight: 800;
+    color: #111;
+}
+
+.cal-month__next {
+    right: 0;
+}
+
+.cal-month__current {
+    text-align: center;
+    color: rgb(100 101 107);
+}
+
+.cal-body__day,
+.cal-head__day {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.cal-body__week,
+.calendar__head {
+    display: block;
+    height: 50px;
+    width: 350px;
+}
+
+.calendar__head {
+    line-height: 50px;
+    position: relative;
+}
+
+.calendar__head:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #90caf9;
+}
+
+.cal-body__day {
+    color: #8e1f1f;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cal-day__month--current {
+    color: #020202;
+}
+
+.cal-day__day--today {
+    font-weight: 800;
+    color: #0c87e8;
+}
+
+.cal-day__day--selected {
+    background-color: #1ff320;
+    box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+    border-radius: 50%;
+    color: #111;
+}
+
+.calendar-box .event-box .add-event {
+    padding: 50px 30px;
+}
+
+.calendar-box .event-box .add-event ul li {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+
+.current-date {
+    height: 140px;
+    border-top-left-radius: 10px;
+}
+
+.calendar-box .event-box .current-date {
+    padding: 30px 10px 10px;
+
+}
+
+.calendar-box .event-box .current-date h1,
+h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.current-day-heading {
+    height: 40px;
+    background-color: rgb(226, 97, 11);
+}
+
+.event-add {
+    height: 240px;
+    background-color: violet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Slider Box-->
+
+
+
+
+<div class="event-container" id="event-container">
+    <div class="form-container upcoming-container">
+        <div class="content-box" style="height: 100%;;padding:1rem ">
+            Here goes upcoming events content 
+        </div>
+
+    </div>
+    <div class="form-container recent-container">
+        <div class="content-box" style="height: 100%; padding:1rem">
+            Here goes the recent events content 
         </div>
     </div>
-</section>
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-left">
+                <h1 class="title is-2" style="color:white">Recents Events</h1>
+                <p>Recent events that have been held in campus</p>
+                <button class="ghost" id="recent">View</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+                <h1 class="title is-2" style="color:white">Upcoming Events</h1>
+                <p>Upcoming events for ($year) </p>
+                <button class="ghost" id="upcoming">View</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    const upcomingButton = document.getElementById('upcoming');
+    const recentButton = document.getElementById('recent');
+    const eventContainer = document.getElementById('event-container');
+
+    upcomingButton.addEventListener('click', () => {
+        eventContainer.classList.add("right-panel-active");
+    });
+    recentButton.addEventListener('click', () => {
+        eventContainer.classList.remove("right-panel-active");
+    });
+</script>

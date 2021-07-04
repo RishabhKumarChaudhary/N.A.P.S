@@ -2,248 +2,202 @@
 include 'header.html';
 ?>
 <section class="hero is-danger">
-  <div class="hero-body">
-    <div class="logo-box">
-        <div id="logo">
-            <img src="Assets/img/logo.png" width="100%"  height="100%"></div>
+    <div class="hero-body">
+        <div class="logo-box">
+            <div id="logo">
+                <img src="Assets/img/logo.png" width="100%" height="100%"></div>
         </div>
-  </div>
+    </div>
+</section>
+<section class="section" style="margin-top:0rem;height:auto;">
+    <div class="hero">
+        <div class="hero-body has-text-centered">
+            <div class="title is-1"
+                style="font-size:90px;color: #ce2929;    font-family: 'Berkshire Swash', cursive; text-shadow: 0px 1px 4px #080808, 7px 8px 6px #040303, 4px 5px 6px black;">
+                News And Publication Society
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div id="wrapper-scope">
+            <div class="scope">
+                <span style="--i:1;"><img src="Assets/img/pic1.jpeg" alt="not found"></span>
+                <span style="--i:2;"><img src="Assets/img/pic2.jpeg" alt="not found"></span>
+                <span style="--i:3;"><img src="Assets/img/pic3.jpg" alt="not found"></span>
+                <span style="--i:4;"><img src="Assets/img/pic4.jpeg" alt="not found"></span>
+                <span style="--i:5;"><img src="Assets/img/pic5.jpg" alt="not found"></span>
+                <span style="--i:6;"><img src="Assets/img/pic6.jpg" alt="not found"></span>
+                <span style="--i:7;"><img src="Assets/img/pic1.jpeg" alt="not found"></span>
+                <span style="--i:8;"><img src="Assets/img/pic1.jpeg" alt="not found"></span>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" style="margin-top:2rem;">
+    <div class="container">
+        <div id="about-content"
+            style="text-align: center; background-color: #efefec;width: auto; height:auto; padding: 10px;">
+            <p>
+                From news to trends, culture to inventions, find the most relevant content
+                of your interest. Share your opinions, express your feelings, spill your creativity and what not...All
+                at NAPS!
+            </p>
+            <br>
+            <span style="color:red;text-shadow: 0 0 2px black, -2px 2px 2px black;">
+                Gain the knowledge, Rain the knowledge
+            </span>
+        </div>
+    </div>
 </section>
 
-<section class="section" style="padding:0rem !important">
-<div class="container is-widescreen" style="height:auto;margin-bottom:2rem;max-width:100vw;margin-top:2rem">
-<div id="captioned-gallery">
-	<figure class="slider">
-		<figure>
-			<img src="Assets/img/pic1.jpeg" alt>
-			<figcaption>Image Description</figcaption>
-		</figure>
-		<figure>
-			<img src="Assets/img/pic2.jpeg" alt>
-			<figcaption>Image Description</figcaption>
-		</figure>
-		<figure>
-			<img src="Assets/img/pic3.jpg" alt>
-			<figcaption>Image Description</figcaption>
-		</figure>
-		<figure>
-			<img src="Assets/img/pic4.jpeg" alt>
-			<figcaption>Image Description</figcaption>
-		</figure>
-		<figure>
-			<img src="Assets/img/pic5.jpg" alt>
-			<figcaption>Image Description</figcaption>
-		</figure>
-	</figure>
-</div>
-</div>
+<section class="section" style="margin-top:2rem;padding:0rem !important;height:auto;;">
+    <div class="tile is-ancestor" style="margin: 0rem !important;">
 
-<div class="container is-max-widescreen" style="height:auto">
+        <div class="tile is-3 is-parent">
+            <div class="tile is-child box has-text-left" style="box-shadow: none;">
+                <p class="title" style="font-family: BsR; font-size:30px">I would like to visit :</p>
+                <div class="columns">
+                    <div class="column has-text-left">
+                        <ul id="quickLinks">
 
-            <div
-                id="about-content"
-                style="text-align: center; background-color: beige;width: auto; height:auto; padding: 10px;">
+                            <li style="margin-top:1rem">
+                                👉 <a href="Editorial.php">Editorials</a>
+                            </li>
+                            <li style="margin-top:1rem">
+                                👉 <a href="campusbuzz.php">Campus Buzz</a>
+                            </li>
+                            <li style="margin-top:1rem">
+                                👉 <a href="newsletter.php">Magazine/Newsletter</a>
+                            </li>
+                            <li style="margin-top:1rem">
+                                👉 <a href="achievers.php">Achievers</a>
+                            </li>
+                            <li style="margin-top:1rem">
+                                👉 <a href="napsteam.php">N.A.P.S Team</a>
+                            </li style="margin-top:1rem">
+                            <li style="margin-top:1rem">
+                                👉 <a href="contactus.php">Contact Us</a>
+                            </li>
 
-                <p >From news to trends, culture to inventions, find the most relevant content
-                    of your interest. Raise out your voices, put up the opinions, spread the
-                    knowledge, and what not ! All at NAPS.</p><br>
-                <span style="color:red">
-                    Gain the knowledge, Rain the knowledge
-                </span>
-            </div>
-</div>
-<div class="container has-text-centered" style="height:auto; margin-top:8rem;">
-    <div class="calendar-box">
-        <div class="event-box">
-            <div class="current-date">
-                <h1 id="date"></h1>
-                <h3 id="day"></h3>
-                <script>
-                                var today = new Date();
-                                var day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-                                 document.getElementById("day").innerHTML = day[today.getDay()]; 
-                                 document.getElementById("date").innerHTML = today.getDate();
-                               
-                            </script>
-            </div>
-            <div class="add-event">
-                <ul>
-                    <p style="text-align: left;">Current Events</p>
-                    <li>New Event</li>
-                    <li>New Event 1</li>
-                    <li>new Event 2</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="calendar">
-            <div class="calendar__month">
-                <div class="cal-month__previous"><</div> <div class="cal-month__current"></div> <div class="cal-month__next">></div>
-            </div>
-            <div class="calendar__head">
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-                <div class="cal-head__day"></div>
-            </div>
-            <div class="calendar__body">
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                </div>
-                <div class="cal-body__week">
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
-                    <div class="cal-body__day"></div>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
-</div>
-<div class="level mt-6">
-            <div class="level-item has-text-centered">
-            
-            <a href="Editorials.php"><span style="font-family:BsR !important;" class="heart animate-beat"> Glimpses of the Editorials </span></a>   
-            
+        <div class="tile is-9 is-parent">
+            <div class="tile is-child box" style="box-shadow: none; padding: 0;">
+                <section class="section" style="height: auto; padding:0;">
 
-            </div>
-</div>
-<section class="section" style="margin-top: 5rem;">
-    <div class="container">
-        <div class="level">
-            <div class="level-left has-text-left">
-                <div class="level-item">
-                <div style="background:white;height:auto;">
-    <div class="img-didyouknow">
-            <img class="funfact-img" src="Assets/img/didyouknow.jpeg" width="100%">
-        </div>
-    </div>
-                </div>
-            </div>
+                    <!-- Eventbox -->
 
-            <div class="level-right ">
-                    <div class="level-item">
-                        
-                        <div id="slider">
-                            <a  class="control_next">></a>
-                            <a  class="control_prev"><</a>
-                                <ul>
+                    <div class="box" style="box-shadow: none; padding: 0;">
 
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact1.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                        <div class="hero" style="margin-left: 2rem;margin-right:1.5rem;margin-bottom:2rem">
+                            <div class="hero-body">
+                                <div class="level" style="font-size: 25px;">
+                                    <div class="level-left">
+                                        <div class="level-item" style="font-family: 'BsR' ;font-size: 46px;
+    color: #061fd2;">
+                                            Events
                                         </div>
-                                    </li>
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact2.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                                    </div>
+                                    <div class="level-right" style="padding-right:3rem">
+                                        <div class="level-item" style="font-family: 'BsR' ;;
+    color: #061fd2;">
+                                            View More <a href="campusbuzz.php" style="text-decoration: none;">
+                                                &nbsp;+</a>
                                         </div>
-                                    </li>
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact3.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="row" style="margin-left:5rem">
+                            <div class="columns  is-gapless">
+                                <div class="column">
+                                    <div class="item event1">
+                                        <div class="text-block">
+                                            This is an event image
                                         </div>
-                                    </li>
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact4.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                                    </div>
+                                    <div class="item event2">
+
+                                        <div class="text-block">
+                                            This is an event image
                                         </div>
-                                    </li>
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact5.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row" style="margin-left:5rem">
+                            <div class="columns  is-gapless">
+                                <div class="column">
+                                    <div class="item event3">
+                                        <div class="text-block">
+                                            This is an event image
                                         </div>
-                                    </li>
-                                    <li class="fact-image" style="padding-top:4rem">
-                                        <div class="level">
-                                            <div class="level-item">
-                                                <figure>
-                                                <img class="image" src="Assets/img/FactImages/Fact8.png" style="height: 170px; width:230px" >
-                                                </figure>
-                                            </div>
+                                    </div>
+                                    <div class="item event4">
+
+                                        <div class="text-block">
+                                            This is an event image
                                         </div>
-                                    </li>
-                                </ul>  
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- <img src="Assets/img/ent2.jpeg"> -->
+                </section>
+                <section class="section" style="height:auto">
+                    <div class="has-text-centered" style="color:red;">
+
+                        <a href="Editorial.php" style="text-decoration: none;color:red"><span
+                                class="animated-text tilted">
+                                Glimpse of the Editorials
+                            </span></a>
+
+                    </div>
+                   
+                </section>
+
+                <section class="section" style="height:auto;background-color: #caced2;">
+                    <div class="level">
+                        <div class="level-item">
+                            <div class="img-didyouknow">
+                                <img class="funfact-img" src="Assets/img/didyouknow.jpeg">
+                            </div>
                         </div>
                     </div>
+                    <div class="slide hi-slide">
+                        <div class="hi-prev "><img src="Assets/img/left_arrow.png"></div>
+                        <div class="hi-next "><img src="Assets/img/left_arrow.png" style="transform: rotate(180deg);">
+                        </div>
+                        <ul>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact1.png" alt="Img 1" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact2.png" alt="Img 2" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact3.png" alt="Img 3" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact4.png" alt="Img 4" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact5.png" alt="Img 5" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact6.png" alt="Img 6" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact7.png" alt="Img 7" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact8.png" alt="Img 8" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/Fact1.png" alt="Img 9" /></li>
+                        </ul>
+                    </div>
+                </section>
             </div>
         </div>
-       
-            
-    </div>
- </section>
-</section>
 
-            
+    </div>
+</section>
 <!--
 <script type="text/javascript">
         window.jssor_1_slider_init = function() {

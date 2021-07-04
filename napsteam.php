@@ -1,8 +1,9 @@
 <?php
 include 'header.html'
 ?>
-<div class="container is-max-desktop">
+<div style="background-image: url('Assets/img/bgna.png');background-repeat: no-repeat; background-size: cover; background-position-x: center; ">
     <br>
+<div class="container " style="margin-bottom: 0 !important; height: auto;">
 <section class="hero mb-3 is-danger">
   <div class="hero-body has-text-centered">
     <div class="title">
@@ -11,7 +12,7 @@ include 'header.html'
   </div>
 </section>
 <br/>
-<section class="section" style="padding: 0rem !important;min-height:130vh">
+<section class="section" style="padding: 0rem !important;">
     <div class="tile is-ancestor has-centered">
     <div class="tile is-parent">
         <article class="tile is-child box is-12">
@@ -35,7 +36,9 @@ include 'header.html'
             <div class="level-item">
                 <a target="_blank" href="https://www.bitmesra.ac.in/Display_My_Profile_00983KKj893L?id=kRmr7J3ZO9bp%252bat0LktF%252b2FJASKdEAGvtGuvdFiutTM%253d" class="btn btn-info">Visit Profile</a>
             </div>
-
+            <div class="level-item">
+            <a target="_blank" href="mailto:charu@bitmesra.ac.in " class="btn btn-danger">Gmail</a>
+            </div>
            </div>
         </article>
     </div>
@@ -62,6 +65,9 @@ include 'header.html'
             <div class="level">
             <div class="level-item">
                 <a target="_blank" href="https://www.bitmesra.ac.in/Display_My_Profile_00983KKj893L?id=zeAh8w4eShCJejdG77HncDHVkT%252bjRJP6U2CzUqt1dVQ%253d" class="btn btn-info">Visit Profile</a>
+            </div>
+            <div class="level-item">
+            <a target="_blank" href="mailto:niket@bitmesra.ac.in" class="btn btn-danger">Gmail</a>
             </div>
            </div>
         </article>
@@ -94,7 +100,7 @@ include 'header.html'
                 <a target="_blank" href="https:/www.linkedin.com/in/rishabhkumarchaudhary" class="btn btn-primary">LinekdIn</a>
             </div>
             <div class="level-item">
-                <a target="_blank" href="https://www.google.com" class="btn btn-danger">Gmail</a>
+                <a target="_blank" href="mailto:iamrishabhchaudhary2808@gmail.com" class="btn btn-danger">Gmail</a>
             </div>
            </div>
         </article>
@@ -119,10 +125,10 @@ include 'header.html'
            </div>
            <div class="level">
             <div class="level-item">
-                <a href="https://www.google.com" class="btn btn-primary">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/prashant-jha-5556b4214" class="btn btn-primary">LinkedIn</a>
             </div>
             <div class="level-item">
-                <a href="https://www.google.com" class="btn btn-danger">Gmail</a>
+                <a href="" class="btn btn-danger">Gmail</a>
             </div>
            </div>
         </article>
@@ -133,6 +139,7 @@ include 'header.html'
 <br>
 
 </section>
+</div>
 </div>
 
 <?php include 'footer.html' ?>
