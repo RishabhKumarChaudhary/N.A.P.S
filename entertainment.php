@@ -100,7 +100,9 @@ include 'header.html'
                                     <div class="content mt-5">
                                         <div class="card-header">
                                         <h5 style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                      
+                                        Celebrities Who Have Had Actual Ghost Encounters
+                                        <br>
+                                        <br>
                                     </h5>
                                         </div>
                                         <div class="figure">
@@ -149,7 +151,7 @@ include 'header.html'
                                     <div class="content mt-5">
                                         <div class="card-header">
                                         <h5 style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                      
+                                        7 Most Amazing Sports Facts That Will Blow Your Mind
                                     </h5>
                                         </div>
                                         <div class="figure">

@@ -88,7 +88,8 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        HOW INDIA DEVELOPED COVID-19 VACCINE IN NO TIME?
+                                        How India developed
+                                        <br> COVID-19 Vaccine in no time?
                                     </h5>
                                 </div>
                                 <div class="figure">
@@ -144,7 +145,11 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        
+                                        <br>
+                                        Flying Cars
+                                        <br>
+                                        <br>
+                                        <br>
                                     </h5>
                                 </div>
                                 <div class="figure">
@@ -200,7 +205,10 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-        
+                                        <bR>
+                                        New Li-Fi Technology
+                                        <br>
+                                        <br>
                                     </h5>
                                 </div>
                                 <div class="figure">
