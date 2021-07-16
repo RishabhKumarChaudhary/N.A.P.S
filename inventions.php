@@ -53,9 +53,190 @@ include 'header.html'
     <br/>
     <section
         class="section"
-        style="padding: 0rem !important;min-height:130vh !important">
+        style="padding: 0rem !important;">
 
-        <div class="tile is-ancestor" style="margin-top: 4rem;">
+        <div class="tile is-ancestor" style="margin-top: 4rem;margin-bottom:10rem">
+            <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
+                <article class="title is-child">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="level" style="padding: 0rem !important;">
+                                <div class="level-right">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Prashant Kumar Jha</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="level-left">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-6">
+                                                <span
+                                                    id="month"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span id="dt" style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span
+                                                    id="year"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content mt-5">
+                                <div class="card-header">
+                                    <h5
+                                        style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
+                                        How India developed
+                                        <br> COVID-19 Vaccine in no time?
+                                    </h5>
+                                </div>
+                                <div class="figure">
+                                    <img src="Articles/Inventions/img/img/intro_art1.jpeg"  style=" width: 400px; height:200px">
+                                </div>
+                                <p>
+                                    <div class="level">
+                                        <div class="level-left"></div>
+                                        <div class="level-right">
+                                            <div class="level-item">
+                                                <a href="Articles/Inventions/article_1.html" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
+                <article class="title is-child">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="level" style="padding: 0rem !important;">
+                                <div class="level-right">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="level-left">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-5">
+                                                <span
+                                                    id="month1"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span
+                                                    id="dt1"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span
+                                                    id="year1"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content mt-5">
+                                <div class="card-header">
+                                    <h5
+                                        style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
+                                        <br>
+                                        Flying Cars
+                                        <br>
+                                        <br>
+                                        <br>
+                                    </h5>
+                                </div>
+                                <div class="figure">
+                                    <img src="https://singularityhub.com/wp-content/uploads/2017/05/shutterstock_581397529-1068x601.jpg"  style=" width: 400px; height:200px">
+                                </div>
+                                <p>
+                                    <div class="level">
+                                        <div class="level-left"></div>
+                                        <div class="level-right">
+                                            <div class="level-item">
+                                                <a href="Articles/Inventions/article_2.html" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="tile is-4" data-aos="fade-right">
+                <article class="title is-child">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="level" style="padding: 0rem !important;">
+                                <div class="level-right">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="level-left">
+                                    <div class="level-item">
+                                        <div class="">
+                                            <p class="is-uppercase is-size-5">
+                                                <span
+                                                    id="month2"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span
+                                                    id="dt2"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                <span
+                                                    id="year2"
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content mt-5">
+                                <div class="card-header">
+                                    <h5
+                                        style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
+                                        <bR>
+                                        New Li-Fi Technology
+                                        <br>
+                                        <br>
+                                    </h5>
+                                </div>
+                                <div class="figure">
+                                <img src="https://www.iberdrola.com/wcorp/gc/prod/en_US/comunicacion/lifi_mult_1_res/lifi_nueva_746x419.jpg"  style=" width: 400px; height:200px">
+                                </div>
+                                <p></p>
+                                <p>
+                                    <div class="level">
+                                        <div class="level-left"></div>
+                                        <div class="level-right">
+                                            <div class="level-item">
+                                                <a href="Articles/Inventions/article_3.html" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section
+        class="section"
+        style="padding: 0rem !important;">
+
+        <div class="tile is-ancestor">
             <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
                 <article class="title is-child">
                     <div class="card">

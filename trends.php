@@ -33,7 +33,7 @@
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">`</p>
                                         </div>
                                     </div>
                                 </div>
