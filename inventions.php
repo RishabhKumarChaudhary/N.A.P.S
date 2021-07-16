@@ -119,7 +119,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Author</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@ include 'header.html'
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                    <img src="Articles/Inventions/img/img/intro_art1.jpeg"  style=" width: 400px; height:200px">
+                                    <img src="https://singularityhub.com/wp-content/uploads/2017/05/shutterstock_581397529-1068x601.jpg"  style=" width: 400px; height:200px">
                                 </div>
                                 <p>
                                     <div class="level">
@@ -179,7 +179,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Author</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
                                         </div>
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@ include 'header.html'
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                <img src="Articles/Inventions/img/img/intro_art1.jpeg"  style=" width: 400px; height:200px">
+                                <img src="https://www.iberdrola.com/wcorp/gc/prod/en_US/comunicacion/lifi_mult_1_res/lifi_nueva_746x419.jpg"  style=" width: 400px; height:200px">
                                 </div>
                                 <p></p>
                                 <p>

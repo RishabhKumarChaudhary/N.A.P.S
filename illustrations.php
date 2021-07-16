@@ -46,7 +46,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Author</p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Anonymous</p>
                                         </div>
                                     </div>
                                 </div>
@@ -100,7 +100,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Author</p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Anonymous</p>
                                         </div>
                                     </div>
                                 </div>
@@ -156,7 +156,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Author</p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Anonymous</p>
                                         </div>
                                     </div>
                                 </div>

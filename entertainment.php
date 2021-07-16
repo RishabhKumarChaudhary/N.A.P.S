@@ -32,7 +32,7 @@ include 'header.html'
                                         <div class="level-right">
                                             <div class="level-item">
                                             <div class="">
-                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Prashant Kumar Jha</p>
+                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
                                             </div>
                                             </div>
                                         </div>
@@ -106,7 +106,7 @@ include 'header.html'
                                     </h5>
                                         </div>
                                         <div class="figure">
-                                        <img src="Articles/Entertainment/img/intro_art1.jpeg"  style=" width: 400px; height:200px" >
+                                        <img src="https://st4.depositphotos.com/29395340/i/600/depositphotos_316245994-stock-photo-portrait-asian-woman-make-ghost.jpg"  style=" width: 400px; height:200px" >
                                         </div>
                                         <p>
                                         <div class="level">
@@ -132,7 +132,7 @@ include 'header.html'
                                         <div class="level-right">
                                             <div class="level-item">
                                             <div class="">
-                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Author</p>
+                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
                                             </div>
                                             </div>
                                         </div>
@@ -155,7 +155,7 @@ include 'header.html'
                                     </h5>
                                         </div>
                                         <div class="figure">
-                                        <img src="Assets/img/ent3.jpeg"  style=" width: 400px; height:200px">
+                                        <img src="http://www.pngall.com/wp-content/uploads/2017/05/Olympic-Rings-PNG-Clipart.png"  style=" width: 400px; height:200px">
                                         </div>
                                         <p>
                                         <div class="level">
