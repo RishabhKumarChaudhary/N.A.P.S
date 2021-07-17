@@ -181,15 +181,15 @@ include 'header.html';
                         <div class="hi-next "><img src="Assets/img/left_arrow.png" style="transform: rotate(180deg);">
                         </div>
                         <ul>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact1.png" alt="Img 1" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact2.png" alt="Img 2" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact3.png" alt="Img 3" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact4.png" alt="Img 4" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact5.png" alt="Img 5" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact6.png" alt="Img 6" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact7.png" alt="Img 7" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact8.png" alt="Img 8" /></li>
-                            <li class="imageHover"><img src="Assets/img/FactImages/Fact1.png" alt="Img 9" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact1.jpeg" alt="Img 1" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact2.jpeg" alt="Img 2" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact3.jpeg" alt="Img 3" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact4.jpeg" alt="Img 4" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact5.jpeg" alt="Img 5" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact6.jpeg" alt="Img 6" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact7.jpeg" alt="Img 7" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact8.jpeg" alt="Img 8" /></li>
+                            <li class="imageHover"><img src="Assets/img/FactImages/fact9.jpeg" alt="Img 9" /></li>
                         </ul>
                     </div>
                 </section>

@@ -46,7 +46,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Anonymous</p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">Debangana Bose</p>
                                         </div>
                                     </div>
                                 </div>
@@ -70,12 +70,19 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        The incinerating catastrophe of Similipal
+                                        Cleanliness and Enviornment
                                     </h5>
                                 </div>
-                                <div class="figure">
-                                    <img src="Assets/img/ill1.jpeg" style=" width: 400px; height:200px">
-                                </div>
+                                <p class="subtitle is-5" style="margin-top:2rem">
+                                In my illustration we can see the water droplets are falling(raining) on the leaves and through the stem a droplet of water is there.
+                                <br>
+Inside the droplet of water a human life is there. . .
+<br>
+                                </p>
+                                <!-- <div class="figure">
+                                    <img src="Articles/Illustrations/img/debangnabose.jpg" style=" width: 400px; height:200px">
+                                    
+                                </div> -->
                                 <p>
                                     <div class="level">
                                         <div class="level-left"></div>

@@ -56,11 +56,16 @@ include 'header.html'
 
     </div>
     <div class="data-text-event">
-        Helo
-    </div>
+        <div class="event-text-box1">
+HEllo
+        </div>
+    
+    
     <div class="lower-border">
 
     </div>
+    </div>
+    
 </div>
 
 </section>

@@ -2,7 +2,7 @@
 include 'header.html'
 ?>
 
-<div class="container">
+<div class="container" style="margin-bottom: 150px;">
     <br>
     <br>
     <section class="hero mb-3">
@@ -64,7 +64,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Prashant Kumar Jha</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Abhishek Srivastava</p>
                                         </div>
                                     </div>
                                 </div>
@@ -88,19 +88,20 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        How India developed
-                                        <br> COVID-19 Vaccine in no time?
+                                        <br>
+                                        Important inventions of past
+                                        <br><br>
                                     </h5>
                                 </div>
                                 <div class="figure">
-                                    <img src="Articles/Inventions/img/img/intro_art1.jpeg"  style=" width: 400px; height:200px">
+                                    <img src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc5MDg1MzU5NzY4OTA1/wright-brothers-2.jpg"  style=" width: 400px; height:200px">
                                 </div>
                                 <p>
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="Articles/Inventions/article_1.html" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Inventions/article_0.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -119,7 +120,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Prashant Kumar Jha</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,7 +180,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                            <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Rishi Vasista</p>
                                         </div>
                                     </div>
                                 </div>
@@ -232,6 +233,11 @@ include 'header.html'
             </div>
         </div>
     </section>
+
+
+
+
+
     <section
         class="section"
         style="padding: 0rem !important;">
@@ -292,7 +298,7 @@ include 'header.html'
                 </article>
             </div>
 
-            <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
+            <!-- <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
                 <article class="title is-child">
                     <div class="card">
                         <div class="card-content">
@@ -350,8 +356,8 @@ include 'header.html'
                         </div>
                     </div>
                 </article>
-            </div>
-
+            </div> -->
+<!-- 
             <div class="tile is-4" data-aos="fade-right">
                 <article class="title is-child">
                     <div class="card">
@@ -410,7 +416,7 @@ include 'header.html'
                         </div>
                     </div>
                 </article>
-            </div>
+            </div> -->
         </div>
     </section>
 </div>

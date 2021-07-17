@@ -20,21 +20,60 @@ include 'header.html'
     <div class="container" style="margin-top:50rem !important ;">
         <div class="row achievers-data">
             <div class=" col-sm-6 achievers-data-text">
-               <!--  <div class="level">
+                <!--  <div class="level">
                     <div class="level-left button-hover-class">
                         <button class="btn btn-warning nectar-button module">Click Me !</button>
                     </div>
                 </div> -->
-                    <h3 class="title" style="font-family: 'Fondamento', cursive;">7th Kalam Ke Sipahi Award - <br>Prof. Asha Prasad</h3>
-                      
-                    <p class="" style="text-align: justify;font-family: 'Katibeh';">
+                <h3 class="title" style="font-family: 'Fondamento', cursive;">7th Kalam Ke Sipahi Award - <br>Prof. Asha Prasad</h3>
+                
+                <p class="" style="text-align: justify;font-family: 'Katibeh';">
                     Prof. (Dr.) Asha Prasad, Director, BIT, Noida Campus received the prestigious 7th Kalam Ke Sipahi Award by GL Bajaj Institute of Management & Research in association with Newspaper Association of India (NAI) on 16 March, 2021. This award is given to the eminent people to salute their hard work and perseverance in the field of Journalism and Education. This award was presented to Dr. Prasad in a mega event organized by The GLBIMR wherein around 200 dignitaries from the field of journalism and education and social work were present. The award recognizes her tireless efforts and excellence in the field of Management Education and Academic administration as a professor and Director. BIT Family whole heartedly celebrates the award and extends best wishes to Prof. (Dr.) Asha Prasad for this distinguished achievement.
-                    </p>
+                </p>
             </div>
             <div class="col-sm-6 ">
                 <img class="image img-responsive achievers-data-image" width="100%" height="70%"  src="Assets/img/at1.jpeg">
             </div>
         </div>
+
+        <div class="row achievers-data">
+            
+            <div class="col-sm-6 ">
+                <img class="image img-responsive achievers-data-image" width="50%" height="70%"  src="Assets/img/team-pr.jpg">
+            </div>
+            <div class=" col-sm-6 achievers-data-text">
+                <!-- <div class="level">
+                    <div class="level-left">  <button class="btn btn-warning nectar-button module">Click Me !</button></div>
+                    <div class="level-right">
+                      
+                    </div>
+                </div> -->
+                <h3 class="title" style="font-family: 'Fondamento', cursive;">Prashant Kumar Jha</h3>
+                <p class="" style="text-align: justify;font-family: 'Katibeh';">
+                
+                </p>
+            </div>
+        </div>
+
+
+        <div class="row achievers-data">
+            <div class=" col-sm-6 achievers-data-text">
+                <!--  <div class="level">
+                    <div class="level-left button-hover-class">
+                        <button class="btn btn-warning nectar-button module">Click Me !</button>
+                    </div>
+                </div> -->
+                <h3 class="title" style="font-family: 'Fondamento', cursive;"><br>Shriya Pandey</h3>
+                
+                <p class="" style="text-align: justify;font-family: 'Katibeh';">
+
+                </p>
+            </div>
+            <div class="col-sm-6 ">
+                <img class="image img-responsive achievers-data-image" width="50%" height="20%"  src="Assets/img/Shriyapandey.jpg">
+            </div>
+        </div>
+
 
         <div class="row achievers-data">
             

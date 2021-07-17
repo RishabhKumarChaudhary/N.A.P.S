@@ -32,7 +32,7 @@ include 'header.html'
                                         <div class="level-right">
                                             <div class="level-item">
                                             <div class="">
-                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
+                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Prashant Kumar Jha</p>
                                             </div>
                                             </div>
                                         </div>
@@ -81,7 +81,7 @@ include 'header.html'
                                         <div class="level-right">
                                             <div class="level-item">
                                             <div class="">
-                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;"></p>
+                                                <p class="is-uppercase is-size-6" style="font-family: JoseFin;">Anonymous</p>
                                             </div>
                                             </div>
                                         </div>

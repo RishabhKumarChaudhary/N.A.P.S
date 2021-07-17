@@ -2,7 +2,7 @@
     include 'header.html'
 ?>
 
-<div class="container">
+<div class="container"style="margin-bottom:150px">
     <br>
     <br>
     <section class="hero mb-3">
@@ -22,7 +22,7 @@
     </section>
     <br />
     <br />
-    <section class="section" style="padding: 0rem !important;height: 150vh;">
+    <section class="section" style="padding: 0rem !important;">
 
         <div class="tile is-ancestor" style="margin-top: 4rem;">
             <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
