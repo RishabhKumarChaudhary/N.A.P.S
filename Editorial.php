@@ -41,8 +41,8 @@ include 'header.html'
                             </div>
                         </div>
                         <div class="card-header">
-                        <a style="text-decoration: none; color:none;" href="Articles/Entertainment/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                        <a style="text-decoration: none; color:none;" href="Articles/Entertainment/article_1.html"><h2 class="title is-3" style="margin-top: 1rem; padding:0rem" >
+                        Motivational Indian Web Series
                         </h2></a>
 
                         </div>
@@ -68,8 +68,8 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                         <a style="text-decoration: none; color:none;" href="Articles/Entertainment/article_2.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br> 
-                            T
+                        
+                            Celebrities Who Have Had Actual Ghost Encounters
                         </h2></a>
 
                         </div>
@@ -95,7 +95,7 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Entertainment/article_3.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            Sports Facts That Will Blow Your Mind
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -167,7 +167,7 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Inventions/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            Important Inventions Of Past 
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -178,7 +178,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Abhishek Srivastava</div>
                             </div>
                         </div>
                     </article>
@@ -192,7 +192,7 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Inventions/article_2.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            Are You Ready To Take Your Cars To The Sky
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -203,7 +203,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Prashant Kumar Jha</div>
                             </div>
                         </div>
                     </article>
@@ -217,7 +217,7 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Inventions/article_3.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            New Li-Fi Technology  
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -228,7 +228,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Rishi Vasista</div>
                             </div>
                         </div>
                     </article>
@@ -391,9 +391,9 @@ include 'header.html'
                             </div>
                         </div>
                         <div class="card-header" >
-                            <a style="text-decoration: none; color:none;" href="Articles/Rachnaye/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
+                            <a style="text-decoration: none; color:none;" href="Articles/Rachnaye/article_4.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
                             <br> 
-                            कविता- ‘नवभारत’    
+                            कविता- ‘ख़ुश्बू का झोंका’    
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -404,7 +404,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">प्रशांत कुमार झा</div>
+                                <div class="author-name-prefix">डॉ. अरुण मित्तल</div>
                             </div>
                         </div>
                     </article>
@@ -419,7 +419,7 @@ include 'header.html'
                         <div class="card-header">
                         <a style="text-decoration: none; color:none;" href="Articles/Rachnaye/article_2.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
                             <br> 
-                            कविता- ‘  ’    
+                            कविता- ‘अकीर्तित योद्धा’   
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -498,7 +498,7 @@ include 'header.html'
                         </div>
                         <div class="card-header">
                         <a style="text-decoration: none; color:none;" href="Articles/Trends/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                        Indian Fashion Trends Which Are Rocking The World 
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -522,8 +522,8 @@ include 'header.html'
                             </div>
                         </div>
                         <div class="card-header">
-                        <a style="text-decoration: none; color:none;" href="Articles/Trends/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                        <a style="text-decoration: none; color:none;" href="Articles/Trends/article_2.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
+                        Yoga Is The New International Trend Now!  
                         </h2></a>
 
                         </div>
@@ -548,8 +548,8 @@ include 'header.html'
                             </div>
                         </div>
                         <div class="card-header">
-                        <a style="text-decoration: none; color:none;" href="Articles/Trends/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                        <a style="text-decoration: none; color:none;" href="Articles/Trends/article_3.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
+                        The Powerful Secrets Of Chanting “Om” 
                         </h2></a>
 
                         </div>

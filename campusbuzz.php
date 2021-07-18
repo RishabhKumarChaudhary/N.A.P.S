@@ -1,5 +1,6 @@
 <?php
-include 'header.html'
+include 'header.html';
+include 'connect.php';
 ?>
 <section class="section mt-3" style="padding:0rem !important">
 <div class="container">
@@ -50,6 +51,25 @@ include 'header.html'
 </section>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="section " style="margin-top:2rem;padding:0rem !important;height: auto;" >
 <div class="event-box-border">
     <div class="upper-border">
@@ -57,7 +77,62 @@ include 'header.html'
     </div>
     <div class="data-text-event">
         <div class="event-text-box1">
-HEllo
+
+
+        <?php
+
+if($conn -> connect_error) {
+    die("Connection Failes" . $conn -> connect_error);
+}
+$sql = "select * from event";
+$result = $conn->query($sql);
+$mydate = date("Y-m-d");
+$month = date("m",strtotime($mydate));
+$year = date("Y",strtotime($mydate));
+$date = date("d",strtotime($mydate));
+
+echo '<div align="center">'.$year.'</div>';
+
+?>
+<div class="row" style="display: flex;justify-content: center;">
+    <ul>
+        <li>Jan</li>
+        <li>Feb</li>
+        <li>Mar</li>
+        <li>Apr</li>
+        <li>May</li>
+        <li>Jun</li>
+        <li>Jul</li>
+        <li>Aug</li>
+        <li>Sept</li>
+        <li>Oct</li>
+        <li>Nov</li>
+        <li>Dec</li>
+    </ul>
+</div>
+<table style="border:1px solid red; width:70%;height:auto;margin:auto">
+
+<?php
+if($result -> num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $event_date = $row["start_date"];
+        if($year == date("Y",strtotime($event_date)) && $month == date("m",strtotime($event_date))) {
+            echo '<tr><td>'.date("M-d",strtotime($event_date)).'</td>';
+            echo '<td>'.$row["title"].'</td></tr>';
+        }
+    }
+
+}
+
+else {
+    echo "Hmm";
+}
+?> 
+</table>
+
+
+
+
         </div>
     
     
@@ -225,3 +300,11 @@ HEllo
 </section>
 
 <?php include 'footer.html' ?>
+
+
+//article from database
+
+//
+outlook + date + author + event + editorialpage + contactus database.
+
+// achiverscontent design.

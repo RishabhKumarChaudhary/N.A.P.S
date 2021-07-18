@@ -60,7 +60,7 @@ include 'header.html'
         style="padding: 0rem !important;">
 
         <div class="tile is-ancestor" style="margin-top: 4rem; margin-bottom:10rem">
-            <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
+        <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
                 <article class="title is-child">
                     <div class="card">
                         <div class="card-content">
@@ -68,7 +68,9 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">प्रशांत कुमार झा</p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">
+                                            डॉ. अरुण मित्तल
+                                        </p>
                                         </div>
                                     </div>
                                 </div>
@@ -92,21 +94,19 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        कविता- ‘नवभारत’
+                                        कविता- ‘ख़ुश्बू का झोंका’
                                     </h5>
                                 </div>
 
                                 <p class="subtitle is-5" style="margin-top:2rem">
-                                    बदलते समय में समाज में हो रहे निरंतर परिवर्तन को दर्शाती "नवभारत" कविता
-                                    (स्वरचित)
-                                    <br>
-                                    <br>
-                                    <br>
+                                कविता ख़ुश्बू का झोंका, कविता है रिमझिम सावन
+                                <br>
+                                कविता है प्रेम की , कविता है रण में गर्जन . . . 
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="Articles/Rachnaye/article_1.html" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Rachnaye/article_4.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -239,6 +239,7 @@ include 'header.html'
         style="padding: 0rem !important;">
 
         <div class="tile is-ancestor" style="margin-top: 4rem;">
+          
             <div class="tile is-4" data-aos="fade-right" style="margin-right: 2rem;">
                 <article class="title is-child">
                     <div class="card">
@@ -247,9 +248,7 @@ include 'header.html'
                                 <div class="level-right">
                                     <div class="level-item">
                                         <div class="">
-                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">
-                                            डॉ. अरुण मित्तल
-                                        </p>
+                                            <p class="is-uppercase is-size-5" style="font-family: JoseFin;">प्रशांत कुमार झा</p>
                                         </div>
                                     </div>
                                 </div>
@@ -273,19 +272,21 @@ include 'header.html'
                                 <div class="card-header">
                                     <h5
                                         style="font-family: BsR; font-size:35px;color:crimson;  justify-items: center; font-weight:300 !important">
-                                        कविता- ‘ख़ुश्बू का झोंका’
+                                        कविता- ‘नवभारत’
                                     </h5>
                                 </div>
 
                                 <p class="subtitle is-5" style="margin-top:2rem">
-                                कविता ख़ुश्बू का झोंका, कविता है रिमझिम सावन
-                                <br>
-कविता है प्रेम की , कविता है रण में गर्जन . . . 
+                                    बदलते समय में समाज में हो रहे निरंतर परिवर्तन को दर्शाती "नवभारत" कविता
+                                    (स्वरचित)
+                                    <br>
+                                    <br>
+                                    <br>
                                     <div class="level">
                                         <div class="level-left"></div>
                                         <div class="level-right">
                                             <div class="level-item">
-                                                <a href="Articles/Rachnaye/article_4.html" class="btn btn-primary">Read More</a>
+                                                <a href="Articles/Rachnaye/article_1.html" class="btn btn-primary">Read More</a>
                                             </div>
                                         </div>
                                     </div>

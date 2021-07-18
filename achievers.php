@@ -51,6 +51,9 @@ include 'header.html'
                 <h3 class="title" style="font-family: 'Fondamento', cursive;">Prashant Kumar Jha</h3>
                 <p class="" style="text-align: justify;font-family: 'Katibeh';">
                 
+                <!-- <img class="image img-responsive" width="70%"  src="Assets/img/prashantachiev.png">
+         -->
+                
                 </p>
             </div>
         </div>
