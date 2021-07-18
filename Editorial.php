@@ -36,7 +36,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 1 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Prashant Kumar Jha</div>
                             </div>
                         </div>
                     </article>
@@ -62,7 +62,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 3 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Anonymous</div>
                             </div>
                         </div>
                     </article>
@@ -89,7 +89,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 3 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Anonymous</div>
                             </div>
                         </div>
                     </article>
@@ -263,13 +263,13 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">June 30 2021</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Illustrations/article_1.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            Cleanliness and Enviornment
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -280,7 +280,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Debangana Bose</div>
                             </div>
                         </div>
                     </article>
@@ -288,13 +288,13 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 11 2021</h2>
                                 </div>
                             </div>
                         </div>
                         <div class="card-header">
                             <a style="text-decoration: none; color:none;" href="Articles/Illustrations/article_2.html"><h2 class="title" style="margin-top: 1rem; padding:0rem" >
-                            <br>  
+                            Glimpse of what NAPS is
                         </h2></a>
                         </div>
                         <div class="card-author">
@@ -305,7 +305,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Mink Sinha</div>
                             </div>
                         </div>
                     </article>
@@ -330,7 +330,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Mink Sinha</div>
                             </div>
                         </div>
                     </article>
@@ -386,7 +386,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 4 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -509,7 +509,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Anonymous</div>
                             </div>
                         </div>
                     </article>
@@ -535,7 +535,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Anonymous</div>
                             </div>
                         </div>
                     </article>
@@ -561,7 +561,7 @@ include 'header.html'
                                 <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
                             </svg>
                             <div class="author-name">
-                                <div class="author-name-prefix">Author</div>
+                                <div class="author-name-prefix">Anonymous</div>
                             </div>
                         </div>
                     </article>
