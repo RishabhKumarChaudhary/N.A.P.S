@@ -1,23 +1,27 @@
 <?php
 include 'header.html'
 ?>
-<body style="background-image:url('Assets/img/award.jpeg');background-repeat: no-repeat; background-size: cover;background-position-x: center;">
+<!-- style="background-image:url('Assets/img/award.jpeg');background-repeat: no-repeat; background-size: cover;background-position-x: center;"
+ -->
+<body >
 
-<section class="section" >
-    <div class="container">
-    <section class="hero has-text-centered">
-    <div class="hero-body" style="color:white;font-size: 48px ; margin-bottom:20rem">
-       <p style="text-align: justify; font-family: 'BsR';"> It's one thing to have dreams, but it's another to take action and turn those dreams into a reality.
-        You are not only a dreamer, you are a doer.
-        Watching you achieve the goals fills our heart.
-        <br>
-       </p>
-<span style="color:black;font-weight: 700;font-family: 'BsR'; font-size: 45px;text-shadow: 1px 1px 4px white, 1px 1px 1px white;">Congratulations on your achievement!</span>
+<section class="section" style="background-image: url('Assets/img/newaward.png');background-repeat:no-repeat;background-size:cover; height: 120vh;background-color: #d82f1e;; background-position:0px 280px">
+    <div class="container" >
+    <section class="hero has-text-centered" >
+    <div class="hero-body" style="color:white;font-size: 48px ; ">
+        <p style="text-align: justify; font-family: 'BsR';">
+            It's one thing to have dreams, but it's another to take action and turn those
+            dreams into a reality. You are not only a dreamer, you are a doer. Watching you
+            achieve the goals fills our heart.
+            <br></p>
+            <span
+                style="color:black;font-weight: 700;font-family: 'BsR'; font-size: 45px;text-shadow: 1px 1px 4px white, 1px 1px 1px white;">Congratulations on your achievement!</span>
+        </div>
+    </section>
     </div>
 </section>
-    </div>
-
-    <div class="container" style="margin-top:50rem !important ;">
+<section class="section" style="background-image:url('Assets/img/newaward2.png')">
+    <div class="container" >
         <div class="row achievers-data">
             <div class=" col-sm-6 achievers-data-text">
                 <!--  <div class="level">
@@ -50,7 +54,9 @@ include 'header.html'
                 </div> -->
                 <h3 class="title" style="font-family: 'Fondamento', cursive;">Prashant Kumar Jha</h3>
                 <p class="" style="text-align: justify;font-family: 'Katibeh';">
-                
+                Prashant Kumar Jha has been awarded certificate for completing five tasks as part of <strong> #YoungWarrior</strong> movement activated by the Ministry of
+Youth Affairs and Sports, CBSE, YuWaah (Generation Unlimited India), and UNICEF India.
+
                 <!-- <img class="image img-responsive" width="70%"  src="Assets/img/prashantachiev.png">
          -->
                 
@@ -69,7 +75,9 @@ include 'header.html'
                 <h3 class="title" style="font-family: 'Fondamento', cursive;"><br>Shriya Pandey</h3>
                 
                 <p class="" style="text-align: justify;font-family: 'Katibeh';">
-
+                Shriya Pandey, a student of Animation and Multimedia Department, presented a paper on "Effects of Video Games on Mental Concentration".
+                <br>
+                Her work was published in IITM Journal.
                 </p>
             </div>
             <div class="col-sm-6 ">

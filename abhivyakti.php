@@ -192,13 +192,13 @@ include 'header.html'
                                             <p class="is-uppercase is-size-5">
                                                 <span
                                                     id="month2"
-                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;">जून</span>
                                                 <span
                                                     id="dt2"
-                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;">30</span>
                                                 <span
                                                     id="year2"
-                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;"></span>
+                                                    style="text-align: right; font-size: 20px; font-family: JoseFin;">2021</span>
                                             </p>
                                         </div>
                                     </div>
@@ -416,50 +416,6 @@ include 'header.html'
     </section>
 </div>
 
-<script>
-    var today = new Date();
-    var months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December"
-    ];
-    document
-        .getElementById("month")
-        .innerHTML = months[today.getMonth()];
-    document
-        .getElementById("dt")
-        .innerHTML = today.getDate();
-    document
-        .getElementById("year")
-        .innerHTML = today.getFullYear();
-    document
-        .getElementById("month1")
-        .innerHTML = months[today.getMonth()];
-    document
-        .getElementById("dt1")
-        .innerHTML = today.getDate();
-    document
-        .getElementById("year1")
-        .innerHTML = today.getFullYear();
-    document
-        .getElementById("month2")
-        .innerHTML = months[today.getMonth()];
-    document
-        .getElementById("dt2")
-        .innerHTML = today.getDate();
-    document
-        .getElementById("year2")
-        .innerHTML = today.getFullYear();
-</script>
 <?php
 include 'footer.html'
 ?>

@@ -36,6 +36,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
 @import url(//db.onlinewebfonts.com/c/7732caef9ed946f7916b3f650e8837c2?family=Harding+Text+Web+Regular);
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
 /*
 
 #adc0dc70;
@@ -1449,16 +1451,14 @@ input[type='submit']:focus {
 
 .event-box-border 
 {
-width: 1440px;
-height: 1421px;
-margin-left:auto;
-margin-right: auto;
 background: #FFFFFF;
 }
 
 
 .upper-border
 {
+    position: relative;
+    top:0;
 width: 1367px;
 height: 416px;
 background: url(../img/upper-border.png);
@@ -1469,10 +1469,9 @@ margin-bottom: 3rem;
 
 .lower-border
 {
-    position: absolute;
+position: relative;
 width: 1367px;
 height: 432px;
-left:0;
 background: url(../img/lower-border.png);
 margin-top:3rem;
 background-repeat: no-repeat;
@@ -1481,10 +1480,11 @@ background-position: center;
 
 .data-text-event
 {
-position: absolute;
-width: 1082px;
+position: relative;
+
 }
 .event-text-box1 {
+    position: relative;
 margin-left: 10%;
 width: 1082px;
 height: auto;
@@ -1494,6 +1494,187 @@ border-radius: 50px;
 padding:2rem;
 color:white
 }
+
+
+.event_main_box {
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    font-family: 'Philosopher', sans-serif;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.event_left_box {
+    height: 150px;
+    width: 15%;
+    position: relative;
+    text-align: center;
+    font-size: 48px;
+    display: inline-block;
+    color: black;
+    margin-left:7%;
+    background-color: white;
+}
+.left_down_box {
+    background-color: black;
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+
+}
+
+.event_right_box {
+    height: 150px;
+    width: 65%;
+    text-align: center;
+    font-size: 48px;
+    display: inline-block;
+    position: absolute;
+    color: black;
+    padding: 2rem 0;
+    background-color:white;
+    right: 0;
+}
+
+.event_months_display {
+display: inline-block;
+margin-bottom: 2rem;
+margin-right:1rem
+}
+
+
+.event_date_box {
+    background-color: white;
+    color:black;
+    width: auto;
+    height:50px;
+    display: inline;
+}
+
+
+
+
+.triangleTopLeft{
+    width:0; 
+    height:0; 
+    border-right:50px solid transparent;
+    border-top:50px solid red;
+    border-left:50px solid red;
+    border-bottom:50px solid transparent;
+    position: absolute;
+    top:-25px;
+    left:-25px;
+    transform: scale(0.5);
+}
+.triangleTopRight{
+    width:0; 
+    height:0; 
+    border-right:50px solid red;
+    border-top:50px solid red;
+    border-left:50px solid transparent;
+    border-bottom:50px solid transparent;
+    position: absolute;
+    right:-25px;
+    top:-25px;
+
+    transform: scale(0.5);
+}
+
+.triangleBottomLeft{
+    width:0; 
+    height:0; 
+    border-right:50px solid transparent;
+    border-top:50px solid transparent;
+    border-left:50px solid red;
+    border-bottom:50px solid red;
+    position: absolute;
+    left:-25px;
+    bottom:-25px;
+
+    transform: scale(0.5);
+}
+
+.triangleBottomRight{
+    width:0; 
+    height:0; 
+    border-right:50px solid red;
+    border-top:50px solid transparent;
+    border-left:50px solid transparent;
+    border-bottom:50px solid red;
+    position: absolute;
+    bottom:-25px;
+    right:-25px;
+
+    transform: scale(0.5);
+}
+
+
+
+
+
+
+
+
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    font-size:18px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -198px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
 
 
 

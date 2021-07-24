@@ -1,5 +1,10 @@
 <?php
-include 'header.html'
+include 'header.html';
+include 'connect.php';
+?>
+<?php
+
+
 ?>
 <section class="section" style="padding-top:1rem;height:130vh;background-image: url(https://images.shiksha.com/mediadata/images/1489476252phpZ8fG9S.jpeg); background-repeat: no-repeat;background-size: cover;">
 
@@ -8,27 +13,27 @@ include 'header.html'
 </br>
   <p>For all enquires, please fill the form below</p>
 
-<br>  <form class="new-contact-us-form">
+<br>  <form action="function.php" class="new-contact-us-form" method="POST">
  
   <label class="floating-label half-width-field">
-    <span>First name<strong class="required-asterisk"><abbr title="required">*</abbr></strong></span>
-    <input type="text" name="contact_us[first_name]" id="contact_us_first_name" autocomplete="given-name" required>
+
+    <input placeholder="First Name" type="text" name="firstname" id="contact_us_first_name" autocomplete="given-name" required>
   </label>
   
   <label class="floating-label half-width-field">
-    <span>Last name<strong class="required-asterisk"><abbr title="required">*</abbr></strong></span>
-    <input type="text" name="contact_us[last_name]" id="contact_us_last_name" autocomplete="family-name" required >
+
+    <input placeholder="Last Name" type="text" name="lastname" id="contact_us_last_name" autocomplete="family-name" required >
   </label>
   
   <label class="floating-label full-width-field">
-    <span class="floated-label">Email<strong class="required-asterisk"><abbr title="required">*</abbr></strong></span>
-    <input type="email" name="contact_us[email]" id="contact_us_email" autocomplete="email" required>
+
+    <input placeholder="Email" type="email" name="email" id="contact_us_email" autocomplete="email" required>
   </label>
   
 
   
     <label class="select-group floating-label half-width-field">
-      <span>You are<strong class="required-asterisk"><abbr title="required">*</abbr></strong></span>
+
     <div>
     <select id="profession" name="profession">
       <option value="title"></option>
@@ -40,12 +45,12 @@ include 'header.html'
   </div>
   </label>
    <label class="floating-label full-width-field">
-    <span>Message/Suggestions <span class="helper"></span></span>
-    <textarea id="contact_us_message" name="contact_us[message]"></textarea>
+    <textarea placeholder="Message/Suggestions" id="contact_us_message" name="message"></textarea>
   </label>
-  <input type="submit" value="Send Message" >
+  <input type="submit" name="okay" value="Send Message" >
 </form>
 </div>
+
 
 
 

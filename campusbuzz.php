@@ -2,6 +2,8 @@
 include 'header.html';
 include 'connect.php';
 ?>
+
+
 <section class="section mt-3" style="padding:0rem !important">
 <div class="container">
 <div class="hero is-danger">
@@ -70,13 +72,14 @@ include 'connect.php';
 
 
 
-<section class="section " style="margin-top:2rem;padding:0rem !important;height: auto;" >
+<section class="section" style="margin-top:2rem;padding:0rem !important;" >
 <div class="event-box-border">
-    <div class="upper-border">
 
-    </div>
+
+    
     <div class="data-text-event">
-        <div class="event-text-box1">
+    <div class="upper-border"></div>
+        <div class="event-text-box1" style="padding-top: 0px;">
 
 
         <?php
@@ -91,25 +94,65 @@ $month = date("m",strtotime($mydate));
 $year = date("Y",strtotime($mydate));
 $date = date("d",strtotime($mydate));
 
-echo '<div align="center">'.$year.'</div>';
+echo '<div align="center" style="font-size:7rem">'.$year.'</div>';
 
 ?>
+<!-- <div class="row" style="display: flex;justify-content: center;">
+    <form>
+        <select>
+            <option value="jan"> January</option>
+            <option value="feb"> February</option>
+            <option value="mar"> March</option>
+            <option value="apr"> April</option>
+            <option value="may"> May</option>
+            <option value="jun"> June</option>
+            <option value="jul"> July</option>
+            <option value="aug"> August</option>
+            <option value="sep"> September</option>
+            <option value="oct"> October</option>
+            <option value="nov"> November</option>
+            <option value="dec"> December</option>
+
+        </select>
+    </form>
+</div> -->
+
 <div class="row" style="display: flex;justify-content: center;">
+
     <ul>
-        <li>Jan</li>
-        <li>Feb</li>
-        <li>Mar</li>
-        <li>Apr</li>
-        <li>May</li>
-        <li>Jun</li>
-        <li>Jul</li>
-        <li>Aug</li>
-        <li>Sept</li>
-        <li>Oct</li>
-        <li>Nov</li>
-        <li>Dec</li>
+        <li class="event_months_display"><button class="btn btn-danger">Jan</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Feb</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Mar</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Apr</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">May</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Jun</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Jul</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Aug</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Sept</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Oct</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Nov</button></li>
+        <li class="event_months_display"><button class="btn btn-danger">Dec</button></li>
     </ul>
 </div>
+<!--     <div class="row" >
+        <div class="event_main_box">
+            <div class="event_left_box">
+            <div class="popup" onclick="myFunction()">Click me to toggle the popup!
+  <span class="popuptext" id="myPopup" >A Simple Popup!</span>
+</div>
+
+            <div class="left_down_box">
+            </div>
+            
+            </div>
+            <div class="event_right_box">
+                <div class="triangleTopLeft"></div>
+                <div class="triangleTopRight"></div>
+                <div class="triangleBottomLeft"></div>
+                <div class="triangleBottomRight"></div>
+            </div>
+        </div>
+    </div> -->
 <table style="border:1px solid red; width:70%;height:auto;margin:auto">
 
 <?php
@@ -117,8 +160,68 @@ if($result -> num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $event_date = $row["start_date"];
         if($year == date("Y",strtotime($event_date)) && $month == date("m",strtotime($event_date))) {
-            echo '<tr><td>'.date("M-d",strtotime($event_date)).'</td>';
-            echo '<td>'.$row["title"].'</td></tr>';
+            echo '<div class="row" style="margin-top:1rem">
+                    <div class="event_main_box">
+                        <div class="event_left_box">
+                        <div class="popup" onclick="myFunction('.$row["id"].')">'
+                        .date("d",strtotime($event_date)).
+                        '<span class="popuptext" id="myPopup'.$row["id"].'" >
+                        <div class=row>
+                            <div class="col-xl-12">
+                                '.$row["description"].'
+                            </div>
+                        </div>
+                        <div class=row>
+                            <div class="col-md-4">
+                            Venue :
+                            </div>
+                            <div class="col-md-8">
+                            '.$row["venue"].'
+                            </div>
+                        </div>
+                        <div class=row>
+                            <div class="col-md-4">
+                            Faculty:
+                            </div>
+                            <div class="col-md-8">
+                            <ul>
+                            <li style="display:inline">'.$row["faculty1_name"].'</li>,
+                            <li style="display:inline">'.$row["faculty2_name"].'</li>
+                            <li style="display:inline">'.$row["faculty3_name"].'</li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class=row>
+                            <div class="col-md-4">
+                            Student:
+                            </div>
+                            <div class="col-md-8">
+                            <ul >
+                                <li style="display:inline">'.$row["student1_name"].'</li>,
+                                <li style="display:inline">'.$row["student2_name"].'</li>
+                                <li style="display:inline">'.$row["student3_name"].'</li>
+                            </ul>
+                            </div>
+                        </div>
+                        
+                        </span>
+                        </div>
+                        <div class="left_down_box">'
+                        .date("M",strtotime($event_date)).
+                        '</div></div>
+                        <div class="event_right_box">
+                            <div class="triangleTopLeft"></div>
+                            <div class="triangleTopRight"></div>
+                            <div class="triangleBottomLeft"></div>
+                            <div class="triangleBottomRight"></div>'
+                        .$row["title"].
+                        '  </div>
+                        </div>
+                    </div>';
+            
+            
+            /* echo '<tr><td><div class="event_date_box">'.date("M-d",strtotime($event_date)).'</div></td>';
+            echo '<td>'.$row["title"].'</td></tr>'; */
         }
     }
 
@@ -144,6 +247,7 @@ else {
 </div>
 
 </section>
+
 <section class="section"> 
 <div class="container">
     <div class="hero">
@@ -299,12 +403,16 @@ else {
 </section>
 </section>
 
+<script>
+// When the user clicks on div, open the popup
+function myFunction(id) {
+    let str1 = id.toString();
+    let str2 = "myPopup";
+    let res = str2.concat(str1);
+    console.log(res);
+  var popup = document.getElementById(res);
+  popup.classList.toggle("show");
+}
+</script>
+
 <?php include 'footer.html' ?>
-
-
-//article from database
-
-//
-outlook + date + author + event + editorialpage + contactus database.
-
-// achiverscontent design.

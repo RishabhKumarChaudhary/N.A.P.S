@@ -161,7 +161,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 3 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -186,7 +186,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 3 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -211,7 +211,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 3 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -412,7 +412,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">June 30 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -438,7 +438,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">June 30 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -492,7 +492,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 1 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -517,7 +517,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 2 2021</h2>
                                 </div>
                             </div>
                         </div>
@@ -543,7 +543,7 @@ include 'header.html'
                         <div class="level">
                             <div class="level-left">
                                 <div class="level-item">
-                                    <h2 class="title is-size-6">Date</h2>
+                                    <h2 class="title is-size-6">July 2 2021</h2>
                                 </div>
                             </div>
                         </div>

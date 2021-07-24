@@ -1,3 +1,107 @@
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+    section.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 998;
+}
+section.modalWindow {
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    z-index: 999 !important;
+    width: 50%;
+    min-height: 200px;
+    margin-left: -300px;
+    background: #FFF;
+    cursor: default;
+  
+}
+section.modal.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 997;
+    cursor: pointer;
+}
+section.modalWindow section.modalWrapper {
+    margin: 30px;
+    border: 1px solid #DADADA;
+    padding: 15px;
+    text-align: left;
+    line-height: 20px !important;
+  height: 300px;
+}
+.closeBtn {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+
+</style>
+
+
+
+
+
+<a href="#" class="modalButton" data-popup="popupOne">Model Popup</a>
+
+<section class="modal modalWindow" id="popupOne">  
+	<section class="modalWrapper">
+		<h2>Modal Popup </h2>
+		<p></p>
+		
+	</section>
+	<a class="closeBtn">CLOSE X</a>
+</section>
+
+<section class="modal overlay"></div>
+
+
+
+
+
+    <script>
+        settings = {
+    //Model Popup
+    objModalPopupBtn: ".modalButton",
+    objModalCloseBtn: ".overlay, .closeBtn",
+    objModalDataAttr: "data-popup"
+}  
+  $(settings.objModalPopupBtn).bind("click", function () {
+        if ($(this).attr(settings.objModalDataAttr)) {
+
+            var strDataPopupName = $(this).attr(settings.objModalDataAttr);
+
+            
+            //Fade In Modal Pop Up
+            $(".overlay, #" + strDataPopupName).fadeIn();
+
+        }
+    });
+
+    //On clicking the modal background
+    $(settings.objModalCloseBtn).bind("click", function () {
+        $(".modal").fadeOut();
+    });
+
+    </script>
+
+<!-- 
 <section class="section" style="padding:0rem !important">
     <div class="container is-widescreen" style="height:auto;margin-bottom:2rem;max-width:100vw;margin-top:2rem">
     <div id="captioned-gallery">
@@ -229,9 +333,9 @@
                 
         </div>
      </section>
-    </section>
+    </section> -->
     
-/*
+<!-- /*
 Calendar Section
 */
 .calendar-box {
@@ -396,13 +500,13 @@ h3 {
 
 
 
-
+ -->
 <!--Slider Box-->
 
 
 
 
-<div class="event-container" id="event-container">
+<!-- <div class="event-container" id="event-container">
     <div class="form-container upcoming-container">
         <div class="content-box" style="height: 100%;;padding:1rem ">
             Here goes upcoming events content 
@@ -443,3 +547,4 @@ h3 {
         eventContainer.classList.remove("right-panel-active");
     });
 </script>
+ -->
